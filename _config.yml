@@ -12,7 +12,7 @@ theme:
   
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Test</p>
      
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   footer_text: >
