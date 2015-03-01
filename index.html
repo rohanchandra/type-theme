@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="home">
@@ -17,7 +18,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h1>
         
-        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <p class="meta">{{ post.date | date: "Le %-d %B %Y" }}</p>
       </header>
 
       <div class="excerpt">
