@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 ---
 
 Ruby on Rails, ou RoR pour les intimes, est un framework **écrit en Ruby. Celui-ci propose une structure pour développer rapidement. Il utilise une structure **MVC, tel que Modèle-Vue-Contrôleur.
