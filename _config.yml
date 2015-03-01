@@ -7,12 +7,12 @@ theme:
   # Meta
   title: Malik Krch
   avatar: avatar.png
-  gravatar: # email md5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  gravatar: malik.krechiche@gmail.com # email md5 hash
+  description: "Blog personnel" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>Test</p>
+     <p>« Plus on partage, plus on possède. Voilà le miracle.  »</p>
      
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   footer_text: >
