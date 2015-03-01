@@ -5,8 +5,9 @@ permalink: /about/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+My wife was complaining about the constant private messages she was getting on LinkedIn from creepy men wanting to use the site as if it were a dating site and not a site for profressionals connect.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+In the past I have blogged about particular individuals (like [David Stewart](http://tosbourn.com/david-stewart-marketing-digital-solutions-thinks-ok-creep-females-linkedin/)) who think it is OK to creep on ladies but
+other people have since contacted me with similar stories and screengrabs.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+I thought I would make a space were people could call out these idiots.
