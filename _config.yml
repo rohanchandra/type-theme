@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/creepedin"
-url: "https://tosbourn.github.io/"
+baseurl: "/"
+url: "http://creeped.in"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
