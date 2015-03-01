@@ -4,7 +4,7 @@ published: false
 
 ---
 layout: post
-title: Apprendre Ruby on Rails [1] - Installation
+title: "Apprendre Ruby on Rails [1] - Installation"
 categories:
 - Tutoriel
 ---
