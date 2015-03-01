@@ -8,6 +8,7 @@ title: Apprendre Ruby on Rails [1] - Installation
 categories:
 - Tutoriel
 ---
+#### Apprendre Ruby on Rails [1] - Installation
 
 Ruby on Rails, ou RoR pour les intimes, est un framework **écrit en Ruby. Celui-ci propose une structure pour développer rapidement. Il utilise une structure **MVC, tel que Modèle-Vue-Contrôleur.
 
