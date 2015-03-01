@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl: "/creepedin"
+url: "https://tosbourn.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
