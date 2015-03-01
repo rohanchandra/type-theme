@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: 
 url: "http://creeped.in"
 
 # THEME-SPECIFIC CONFIGURATION
