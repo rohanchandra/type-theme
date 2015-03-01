@@ -15,8 +15,7 @@ theme:
      <p>« Plus on partage, plus on possède. Voilà le miracle.  »</p>
      
      <p>Malik, je suis lycéen, je suis passionné des métiers du web et de l'image.</p>
-  footer_text: >
-   Technologies : <a href="http://jekyllrb.com">Jekyll</a> et <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+  footer_text: > © Malik Krechiche — Créé avec Jekyll, hébergé sur Github.
   
   # Icons
   rss: false
