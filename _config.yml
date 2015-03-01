@@ -14,43 +14,43 @@ theme:
   header_text: >
      <p>« Plus on partage, plus on possède. Voilà le miracle.  »</p>
      
-     <p>Malik, j'ai 15 ans et je suis lycéen. Je suis passionné des métiers du web et de l'images.</p>
+     <p>Malik, je suis lycéen, je suis passionné des métiers du web et de l'image.</p>
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Technologie : <a href="http://jekyllrb.com">Jekyll</a> et <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
   
   # Icons
   rss: false
-  email_address: # full email address, e.g. "sam@example.com"
-  behance:
+  email_address: malik.krechiche@outlook.fr # full email address, e.g. "sam@example.com"
+  behance: 
   bitbucket: 
   dribbble: 
   facebook: 
   flickr: 
-  github: "rohanchandra/type-theme"
-  google_plus: 
-  instagram: 
+  github: "malikkrch"
+  google_plus: 115711538109148806645
+  instagram: malik_krch
   linkedin:  # full URL
-  pinterest: 
+  pinterest: malik_krch
   reddit: 
   soundcloud: 
   stack_exchange:  # full URL
-  steam: 
-  tumblr: 
+  steam: kipsafr_com
+  tumblr: malikkrch
   twitter: "twitter"
   wordpress: 
-  youtube: 
+  youtube: WeAreYuni
   
   # Scripts
-  google_analytics: # tracking id, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: UA-60251617-1 # tracking id, e.g. "UA-000000-01"
+  disqus_shortname: malikkrechiche
   
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
+  str_follow_on: "Suivez-moi sur "
+  str_rss_follow: "Suivez RSS feed"
   str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_next: "Suivant"
+  str_prev: "Précédent"
+  str_continue_reading: "Lire la suite"
   
   # Colors, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
