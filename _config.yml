@@ -59,6 +59,9 @@ theme:
 paginate: 5
 paginate_path: "blog/page:num"
 
+#Permaliens
+permalink: /:title
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: pygments
