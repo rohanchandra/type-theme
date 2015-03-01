@@ -2,6 +2,13 @@
 published: false
 ---
 
+---
+layout: post
+title: Apprendre Ruby on Rails [1] - Installation
+categories:
+- Tutoriel
+---
+
 Ruby on Rails, ou RoR pour les intimes, est un framework **écrit en Ruby. Celui-ci propose une structure pour développer rapidement. Il utilise une structure **MVC, tel que Modèle-Vue-Contrôleur.
 
 Cette suite d’articles va donc vous apprendre a vous former, développer, et utiliser Ruby ainsi que Ruby on Rails. Avant de pourvoir réellement commencer a développer, il faudra donc installer l’environnement Ruby on Rails.
