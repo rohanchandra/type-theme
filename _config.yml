@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://angusgordon.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -12,31 +12,29 @@ theme:
   
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Angus Gordon's personal blog</p>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
   
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: angus@angusgordon.com
   behance:
   bitbucket: 
   dribbble: 
   facebook: 
   flickr: 
-  github: "rohanchandra/type-theme"
+  github: 
   google_plus: 
   instagram: 
-  linkedin:  # Full URL
+  linkedin: https://www.linkedin.com/in/angusgordon
   pinterest: 
   reddit: 
   soundcloud: 
   stack_exchange:  # Full URL
   steam: 
   tumblr: 
-  twitter: "twitter"
+  twitter: "angusgmelb"
   wordpress: 
   youtube: 
   
@@ -51,13 +49,13 @@ theme:
   str_email: "Email"
   str_next: "Next"
   str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_continue_reading: "More"
   
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
