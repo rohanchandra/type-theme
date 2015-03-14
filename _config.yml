@@ -6,7 +6,7 @@ url: "http://angusgordon.github.io" # the base hostname & protocol for your site
 theme:
   # Meta
   title: Grid life
-  avatar: avatar.png
+  avatar:
   gravatar: # Email MD5 hash
   description: "Angus Gordon's personal blog" # used by search engines
   
