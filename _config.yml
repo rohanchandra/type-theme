@@ -8,11 +8,10 @@ theme:
   title: Grid life
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Angus Gordon's personal blog" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>Angus Gordon's personal blog</p>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
   
