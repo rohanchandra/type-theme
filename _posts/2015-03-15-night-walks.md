@@ -13,7 +13,7 @@ My most epic walk, however, was in a north-west direction. It took in first the 
 
 ![map showing route of north-west walk](/img/north-west-walk.png)
 
-Since moving to Brunswick, there&rsquo;s been less variety in my walks. Whatever direction I walk in, it&rsquo;s Californian bungalows, and light-industrial in the process of being turned into apartments. I can cross Merri Creek to Northcote if I want hills (walking along the creek itself is probably ill-advised at night, although I&rsquo;ve done it under a full moon a few times), or westwards to where the streets widen and the residential blocks get bigger, but variety has to be found on a smaller scale around here. 
+Since moving to Brunswick, there&rsquo;s been less variety in my walks. Whatever direction I walk in, it&rsquo;s Californian bungalows, and light-industrial in the process of being turned into apartments. I can cross Merri Creek to Northcote if I want hills (walking along the creek itself is probably ill-advised at night, although I&rsquo;ve done it under a full moon a few times), or head westwards to where the streets widen and the residential blocks get bigger, but variety has to be found on a smaller scale around here. 
 
 The grid structure of the streets does make it easier to &ldquo;quantify&rdquo; walks though, something I&rsquo;ve got into the habit of doing since I got an iPhone with a built-in pedometer. Rather than sticking to a few fixed routes, I&rsquo;ve got into the happen of walking in a straight line, turning 90 degrees, going until I&rsquo;ve reached half the number of steps I want to do, then completing the rectangle. Not in the spirit of the fl&acirc;neur perhaps, but there it is.
 
