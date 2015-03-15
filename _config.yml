@@ -62,3 +62,4 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
+encoding: UTF-8
