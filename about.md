@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+This is a personal blog for Angus Gordon. I'm a Melburnian who's interested in cities, literature, film, TV, opera, pop music, and politics.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+In my professional life, I'm a content strategist at an agency called Weave. I blog about content strategy on our [company blog](http://weaveweb.com.au).
