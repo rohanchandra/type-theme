@@ -37,7 +37,7 @@ So how deserved is HBO's exalted reputation? Well, looking over the roster of HB
 * *Sex and the City*
 * *True Blood*
 * *Luck*
-* Every Chris Lilley show post-*Summer Heights High*[^1]
+* Every Chris Lilley show post-*Summer Heights High* [^1]
 
 ### Shows that are the absolute worst
 
