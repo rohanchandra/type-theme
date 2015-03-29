@@ -11,8 +11,6 @@ theme:
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: >
-  header_text_feature_image: img/header-img.jpg
   footer_text: >
     Blog by <a href="https://twitter.com/indiesquidge">Austin Wood</a> and <a href="https://twitter.com/tjwaldorf">Trevor Waldorf</a>
   # footer_text_feature_image: img/test.jpg # doesn't work...yet
@@ -34,7 +32,6 @@ theme:
   str_email: "Email"
   str_next: "Next"
   str_prev: "Prev"
-  str_continue_reading: "Continue reading"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"

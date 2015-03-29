@@ -1,6 +1,8 @@
 // Typography
-$font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500);
+$font-family: 'Fira Sans', Helvetica, sans-serif;
 $font-size: 1.25em;
+$body-font-weight: 300;
 
 // Padding
 $padding-large: 20%;
@@ -13,8 +15,8 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838;
-$link-color: #1ABC9C;
+$text-color: #513232;
+$link-color: #E3322B;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
