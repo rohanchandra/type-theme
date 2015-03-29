@@ -6,7 +6,7 @@ title: Likes and dislikes
 
 — Roland Barthes, *Roland Barthes*
 
-I've always loved this passage (preceded by a list of Barthes' own likes and dislikes) in which Barthes seems to grasp a kind of disavowed violence at the heart of sentiments like "à chacun son goût".
+I've always loved this passage (preceded by a list of Barthes' own likes and dislikes) in which Barthes seems to grasp a disavowed violence at the heart of sentiments like "à chacun son goût".
 
 But what about the way we confront **our own** likes and dislikes? Barthes seems to have arrived at a serene acceptance of the "anarchic foam" of his own tastes, an arbritrariness that's no more motivated than a fingerprint, or whose motivations are so buried that there's no point interrogating them.
 
