@@ -1,6 +1,11 @@
 // Typography
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500);
-$font-family: 'Fira Sans', Helvetica, sans-serif;
+// @import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500);
+@font-face {
+  font-family: Avenir;
+  src: local("../fonts/AvenirNextLTPro-Regular.otf");
+}
+
+$font-family: Avenir, sans-serif;
 $font-size: 1.25em;
 $body-font-weight: 300;
 
@@ -27,5 +32,5 @@ $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #F98752;
+$header-desc-background-color: #E3322B;
 $header-desc-text-color: #FFF;
