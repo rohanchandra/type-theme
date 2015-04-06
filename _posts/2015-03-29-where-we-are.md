@@ -5,9 +5,9 @@ feature-img: "img/boxcar-coffee.jpg"
 ---
 
 > Trevor and I are in our early 20's.
-We want to travel Europe with nothing more than what we can carry on our backs.
-We want to work remotely on whatever we can find, with a focus on designing and
-developing websites and online applications. We want to start in August, 2015.
+We're getting ready to travel Europe with nothing more than what we can carry on our backs.
+We're sustaining our lifestyle by working remotely on whatever we can find, with a focus on designing and
+developing websites and online applications. We leave the U.S. and everything we know in August, 2015.
 
 It's very difficult to start doing anything. The bigger picture of where you'd
 like your life to be is easy to imagine, but whittling it down into small,
@@ -32,9 +32,9 @@ something feasible, but a true desire spearheaded by our craving for
 perspective.
 
 We wanted to start writing about our mission from the very beginning, but as
-noted above, it's tough to form new habits, and I for one had never freely
+noted above, it's tough to form new habits, and I had never freely
 written about anything before last week. I think a part of the hesitation stems
-from our own minds falsly pretecting us from unreasonable downfalls.
+from our own minds falsely protecting us from unreasonable downfalls.
 
 _Is this going to be worth my time?_
 
@@ -48,20 +48,20 @@ something wrong or frowned upon. In his video on the
 Stevens of Vsauce discusses what he calls "the family of forces that
 guide social behavior". Past the obvious limits of science (you can't be in two
 places at once, you can't wear pants made of molten lead, etc.), past the laws
-of the state that delineate rules enfored by governmental authority, and past
+of the state that delineate rules enforced by governmental authority, and past
 the even smaller set of proper social etiquette, there lies each person's unique
 self-consciousness that guides our daily actions.
 
 This personal apprehension grows with us, quietly shaping who we are and how we
 believe the world sees us. We build skepticism and legislate our own agendas. We
 spend a great deal of time worrying about others and what they may think of us.
-Many people share a common anxiety of what's called "imposter syndrome", the
+Many people share a common anxiety called "imposter syndrome", the
 feeling that all of your goals and life accomplishments have been based on
-other's work and that you alone really have no idea what you're doing. And no
+other's work and that you really have no idea what you're doing. And no
 one wants any of this to seep through the cracks and into their public life. We
 want to seem confident and lucrative, and any accidents or mistakes we make are
 quickly swept under the rug and proclaimed a fluke in our otherwise normal
-existance.
+existence.
 
 This is of course, __complete bullshit__.
 
@@ -95,7 +95,7 @@ These weekly posts will help to benchmark our busy thoughts and carve them into
 coherent ideas that we can share with others. They will also help us plan out
 what we really want from a trip that will last indefinitely. Some of the writing
 we do may be god awful, but we aren't going to learn how to correct those
-abberrations until we know how to find them.
+aberrations until we know how to find them.
 
 Our plans are still very raw and unrefined. We are gathering as many opinions
 and perspectives as possible, from anyone who would like to share. Each week, we
