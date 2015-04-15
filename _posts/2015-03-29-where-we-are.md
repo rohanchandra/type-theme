@@ -99,7 +99,7 @@ aberrations until we know how to find them.
 
 Our plans are still very raw and unrefined. We are gathering as many opinions
 and perspectives as possible, from anyone who would like to share. Each week, we
-will write about what new knowledge we've gained. The point of writing these
+write about what new knowledge we've gained. The point of writing these
 posts in a serial fashion is to expose our mistakes and ignorance. We want
 others to be able to follow our thought patterns, not just hear about our
 solutions after the struggle is over.
