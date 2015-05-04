@@ -8,7 +8,7 @@ theme:
   title: David Thompson
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "David Thompson: a blog about code, design and whatever else I feel like talking about"
 
   # Header and footer text
   header_text: >
@@ -42,7 +42,7 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-62570871-1"
   disqus_shortname:
   katex: false # Enable if using math markup
 
