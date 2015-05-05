@@ -1,3 +1,8 @@
+---
+layout: post
+title: On Austin
+---
+
 Austin makes me laugh. If you hang around people who make you laugh, you'll live longer. You'll live better, too, because laughing is maybe the best thing.
 
 I don't know much about him, but I know he's from around here, and he wants to be elsewhere. I know we're both mediocre at foosball and have a great time playing 1v1 on a 2v2 table. What more do you need in a travel partner than wanderlust and foosball?
