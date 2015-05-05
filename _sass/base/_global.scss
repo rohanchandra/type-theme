@@ -75,6 +75,7 @@ dd {
 p, ol, ul, dl, .math-display {
   line-height: 1.5;
   margin-bottom: 1em;
+  font-weight: $body-font-weight;
 }
 .math-display {
   display: inline-block;
