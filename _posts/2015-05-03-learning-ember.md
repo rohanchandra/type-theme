@@ -19,18 +19,18 @@ over configuration' approach that Ember.js uses, so did not have to do the requi
 Without further ado, and in chronological order, here are the resources that I
 found most useful.
 
-* **Ember.js Guides**: http://guides.emberjs.com/. Being honest I didn't get a lot of this at the start, but as you learn, keep going back and reading.
-* **ember-cli 101**: https://leanpub.com/ember-cli-101. Brilliant book that takes you through the process of building an app.
-* **JavaScript Design Patterns by Addy Osmani**. http://addyosmani.com/resources/essentialjsdesignpatterns/book/. Not Ember.js specific, and slightly dated with the onset of ES6, but great reading if you want to know the background of the kinds of problems Ember.js solves and understand the design decisions behind your favourite JS libraries.
-* **Test-Driven Development by Example**: https://www.youtube.com/watch?v=2b1vcg_XSR8. A fantastic live coding video from EmberConf 2015 by Toran Billups
-* **Reading Group**: https://github.com/foraker/ember-reading-group. An organisation called Foraker generously shared their internal reading group notes. Really useful to work through.
+* **Ember.js Guides**: [http://guides.emberjs.com/]. Being honest I didn't get a lot of this at the start, but as you learn, keep going back and reading.
+* **ember-cli 101**: [https://leanpub.com/ember-cli-101]. Brilliant book that takes you through the process of building an app.
+* **JavaScript Design Patterns by Addy Osmani**. [http://addyosmani.com/resources/essentialjsdesignpatterns/book/]. Not Ember.js specific, and slightly dated with the onset of ES6, but great reading if you want to know the background of the kinds of problems Ember.js solves and understand the design decisions behind your favourite JS libraries.
+* **Test-Driven Development by Example**: [https://www.youtube.com/watch?v=2b1vcg_XSR8]. A fantastic live coding video from EmberConf 2015 by Toran Billups
+* **Reading Group**: [https://github.com/foraker/ember-reading-group]. An organisation called Foraker generously shared their internal reading group notes. Really useful to work through.
 * **Pair Programming**. I was lucky enough to spend some time with a couple of experienced Ember.js developers pairing on solving a problem. Really helped to put my learning in context and see how more experience users of the framework operate.
 
 Finally I also created an Ember app as a learning exercise - something I strongly suggest.
 Given that I had just watched Daredevil I decided to build a front-end for the
 Marvel API.
 
-The source code for my app is available here: https://github.com/dtt101/superhero.
+The source code for my app is available here: [https://github.com/dtt101/superhero].
 It has full local setup instructions and how to run the tests. Pull requests
 or suggestions always welcome ;)
 
