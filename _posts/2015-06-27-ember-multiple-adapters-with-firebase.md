@@ -9,7 +9,16 @@ Ember application, using Firebase with my demo Marvel API Ember app as an exampl
 You can see the source code for the full application here: https://github.com/dtt101/superhero
 and view it online here: https://superhero-demo.firebaseapp.com
 
-TODO: versions and prerequisites.
+## Pre-Requisites
+As I am friend to our collective future here are links to the versions of software I
+am using as I write, including ember-cli 0.2.7, Ember.js 1.12.1 and emberfire 1.4.7.
+
+```bower.json```: https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/bower.json
+
+```package.json```
+https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/package.json
+
+## Adding firebase to ember-cli
 
 The first round of the app included hooking up a character search and showing
 character details. What I want to do next is hookup some search tracking so I
