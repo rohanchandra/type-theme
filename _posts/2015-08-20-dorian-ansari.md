@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Dorian Ansari
+title: Exquisite
 ---
 
-Dorian Ansari gets straight to the point;
+This creeper gets straight to the point;
 
 ![Dorian Ansari]({{ site.baseurl }}/img/dorian_ansari.png)
 
