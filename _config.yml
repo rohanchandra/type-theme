@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site 
+url: "http://shanalikhan1.github.com" # the base hostname & protocol for your site 
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: Shan Ali Khan Blog
   avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  gravatar: "https://avatars3.githubusercontent.com/u/8774556?v=3&s=460"
+  description: "Coder , Blogger and Teacher" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -27,23 +27,23 @@ theme:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "shanalikhan1"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  "https://pk.linkedin.com/in/shanalikhan"
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:  "http://stackoverflow.com/users/1931605/shan"
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "shan_ali_khan"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-66802275-1"
+  disqus_shortname: "shankhanblog"
   katex: true # Enable if using math markup
 
   # Localization strings
