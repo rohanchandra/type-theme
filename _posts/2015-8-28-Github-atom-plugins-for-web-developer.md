@@ -7,6 +7,9 @@ description : These are the best plugins for Githum Atom editor which will reall
 Atom by Github is an amazing  , powerful and modern text editor when compared to other text editors and the one major reason to support this editor is that Github has got its back !
 If you are a web developer and looking forward to get your hands dirty in the new editor. Atom is great for learning and takes your productivity to next level but only if you know what features you need in order to so your work. There are thousands of plugins developed by Atom community which really helps in increasing your productivity.
 These plugins should be on every developer Atom pocket.
+
+
+
 <ul>
 <li><strong><a href="https://github.com/Glavin001/atom-beautify">atom-beautify</a></strong><br/>
   Atom beautify is a handy tool in order to make your code beautiful on just one tap while coding. It also beautifies the minified files in almost in every language.</li>
