@@ -4,14 +4,17 @@ layout: default
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
-    <blockquote>
-  <p>You can follow me <a href="http://twitter.com/shan_ali_khan">@shan_ali_khan</a></p>
-</blockquote>
+   
     
     <p class="meta">
     {{ page.date | date: "%B %-d, %Y" }}
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
+    <br/>
+    <br/>
+     <blockquote>
+  <p>You can follow me <a href="http://twitter.com/shan_ali_khan">@shan_ali_khan</a></p>
+</blockquote>
   </header>
   <section class="post-content">{{ content }}</section>
 </article>
