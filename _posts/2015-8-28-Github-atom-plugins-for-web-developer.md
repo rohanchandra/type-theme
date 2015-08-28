@@ -33,5 +33,5 @@ Working on template engine like Jade etc want to look real time preview of HTML 
 </li>
 </ul>
 
-Do you find any other best plugin. Comment below.
+These plugins should be installed in your Atom. Believe me it will really enchance your productivity. Comment below if you know other best plugin.
 
