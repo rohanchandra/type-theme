@@ -8,7 +8,7 @@ sitemap:
   {% for post in site.posts %}
     {% unless post.published == false %}
     <url>
-      <loc>http://{{ site.url }}{{ post.url }}</loc>
+      <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif post.date %}
@@ -36,7 +36,7 @@ sitemap:
 
     {% if page.sitemap.exclude != "yes" and extension == "html" and page.path != "/404.html" %}
     <url>
-      <loc>http://{{ site.url }}{{ page.permalink | remove: "index.html" }}</loc>
+      <loc>{{ site.url }}{{ page.permalink | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
         <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif page.date %}
@@ -62,7 +62,7 @@ sitemap:
     {% if collection[1].output %}
       {% for doc in collection[1].docs %}
         <url>
-          <loc>http://{{ site.url }}{{ doc.url | remove: "index.html" }}</loc>
+          <loc>{{ site.url }}{{ doc.url | remove: "index.html" }}</loc>
           {% if doc.sitemap.lastmod %}
             <lastmod>{{ doc.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
           {% elsif doc.date %}
