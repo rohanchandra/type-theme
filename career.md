@@ -11,7 +11,7 @@ feature-img: "img/sample_feature_img_2.png"
 <div style="float:right">
 September 2014 – March 2015 
 </div>
-### Software Engineer - Xabist Technologies
+<h3>Software Engineer - Xabist Technologies</h3>
 Main responsibilities are System Analysis & Design and Software Development. 
 <ul>
 <li><span style="font-weight:bold">System Analysis & Desinging </span>
