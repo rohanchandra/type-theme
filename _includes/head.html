@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ "Shan Ali Khan Blog" }}</title>
+	<title>{% if page.title %}{{ page.title }} {% else %}{{ "Shan Ali Khan Blog" }}{% endif %} </title>
 	{% if page.description %}
   <meta name="description" content="{{ page.description}}" />
 {% endif %}
