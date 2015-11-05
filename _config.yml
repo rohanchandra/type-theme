@@ -5,7 +5,7 @@ url: "http://shanalikhan1.github.io" # the base hostname & protocol for your sit
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Shan Ali Khan Blog
+  title: Shan Ali Khan
   avatar: "https://avatars3.githubusercontent.com/u/8774556?v=3&s=460"
   gravatar: 
   description: "Coder , Blogger and Teacher" # used by search engines
@@ -60,7 +60,7 @@ theme:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
   
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5
