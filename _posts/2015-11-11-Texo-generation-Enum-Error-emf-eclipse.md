@@ -8,8 +8,5 @@ Some times generating models from ECore models in Eclipse Modeling Framework gen
 Lets have a look on easy solution.
 
 
-
-
-<img src="/img/texo-enums-1.png" alt="ecore model"/>
-![Geometric pattern with fading gradient](/img/sample_feature_img_2.png)
+Suppose this is the model 
 ![Geometric pattern with fading gradient1](/img/texo_enums_1.PNG)
