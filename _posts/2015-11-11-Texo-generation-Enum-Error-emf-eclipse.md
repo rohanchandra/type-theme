@@ -10,5 +10,5 @@ Lets have a look on easy solution.
 
 
 
-<img src="{{ site.url }}/assets/img/texo-enums/1.png" alt="ecore model"/>
+<img src="/img/texo-enums-1.png" alt="ecore model"/>
 <img src="{{ site.url }}/assets/img/texo-enums-1.PNG" alt="ecore model"/>
