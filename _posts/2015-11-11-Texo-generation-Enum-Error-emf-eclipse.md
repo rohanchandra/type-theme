@@ -12,3 +12,4 @@ Lets have a look on easy solution.
 
 <img src="/img/texo-enums-1.png" alt="ecore model"/>
 <img src="{{ site.url }}/assets/img/texo-enums-1.PNG" alt="ecore model"/>
+![Geometric pattern with fading gradient](/img/texo-enums-1.png)
