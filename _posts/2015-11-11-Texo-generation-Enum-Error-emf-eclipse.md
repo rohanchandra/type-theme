@@ -12,4 +12,4 @@ Lets have a look on easy solution.
 
 <img src="/img/texo-enums-1.png" alt="ecore model"/>
 ![Geometric pattern with fading gradient](/img/sample_feature_img_2.png)
-![Geometric pattern with fading gradient](/img/texo_enums_1.png)
+![Geometric pattern with fading gradient1](/img/texo_enums_1.PNG)
