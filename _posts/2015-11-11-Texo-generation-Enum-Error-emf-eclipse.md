@@ -17,6 +17,7 @@ When you generate the TEXO model from the ecore model you might get an error on 
 ![Model Factory Error](/img/texo_enums_4.PNG)
 
 <strong>Solution</strong>
+
 When you open the properties of AIRLINES Enum you will see that Instand Type Name is set as AIRLINES same to Name. When we set the type name to Airline EMF automatically set the Class Name as "java.lang.Object" which is coming in the above picture. We have to replace the oject with Airline in order to solve the problem.
 
 ![Enum Property](/img/texo_enums_2.PNG)
