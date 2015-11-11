@@ -11,5 +11,5 @@ Lets have a look on easy solution.
 
 
 <img src="/img/texo-enums-1.png" alt="ecore model"/>
-<img src="{{ site.url }}/assets/img/texo-enums-1.PNG" alt="ecore model"/>
+![Geometric pattern with fading gradient](/img/sample_feature_img_2.png)
 ![Geometric pattern with fading gradient](/img/texo_enums_1.png)
