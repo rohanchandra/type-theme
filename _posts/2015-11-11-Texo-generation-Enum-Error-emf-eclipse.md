@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Texo Generated Error When Enum added in ECore Model in EMF
+title: Texo ENUM Generated from EMF Error Object dont have property in ModelFactory 
 description : Adding enums in emf ecore model and generating texo models from enums generate errors as object could not be recognized in java modelFactory class.
 ---
 
