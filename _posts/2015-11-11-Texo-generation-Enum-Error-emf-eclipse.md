@@ -10,4 +10,4 @@ Lets have a look on easy solution.
 
 
 
-![My helpful screenshot]({{ site.url }}/img/text-enums/1.png)
+<img src="{{ site.url }}/img/text-enums/1.png" alt="ecore model"/>
