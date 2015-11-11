@@ -1,14 +1,21 @@
 <header class="site-header">
 	<div class="branding">
-		{% if site.theme.gravatar %}
+		<!--	{% if site.theme.gravatar %}
 		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
+			 <img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/> 
+			<img class="avatar" src="https://secure.gravatar.com/avatar/4e53a9e6528d7b9a3ec100fd3b4dc687?s=100" alt=""/>
 		</a>
 		{% elsif site.theme.avatar %}
 		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt=""/>
+			<img class="avatar" src="{{ site.theme.avatar }}" alt="Shan Ali Khan"/>
+		</a>
+		{% endif %} -->
+		{% if site.theme.avatar %}
+		<a href="{{ site.baseurl }}/">
+			<img class="avatar" src="{{ site.theme.avatar }}" alt="Shan Ali Khan"/>
 		</a>
 		{% endif %}
+		
 		<h1 class="site-title">
 			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
 		</h1>

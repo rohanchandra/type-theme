@@ -1,23 +1,24 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://shanalikhan1.github.io" # the base hostname & protocol for your site 
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  title: Shan Ali Khan
+  avatar: "https://avatars3.githubusercontent.com/u/8774556?v=3&s=460"
+  gravatar: "shanalikhan1"
+  description: "Coder , Blogger and Teacher" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p> Hi, I'm Shan !
+     </p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>I code, write, speak, promote, learn and listen. I speak all over to whoever will listen.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Follow me <a href="http://twitter.com/shan_ali_khan">@shan_ali_khan</a>
 
   # Icons
   rss: false
@@ -27,23 +28,23 @@ theme:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "shanalikhan1"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  "https://pk.linkedin.com/in/shanalikhan"
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:  "http://stackoverflow.com/users/1931605/shan"
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "shan_ali_khan"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-66802275-1"
+  disqus_shortname: "shankhanblog"
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -59,7 +60,7 @@ theme:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
   
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5
