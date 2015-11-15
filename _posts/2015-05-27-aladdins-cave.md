@@ -10,4 +10,4 @@ tags:
 This creeper thinks this poster's beauty compliments her
 business skill sets perfectly.
 
-![Dave Johnson](/img/cave.png)
+![Cave](/img/cave.png)
