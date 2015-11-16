@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
   {% if site.theme.header_text %}
   <div class="call-out">{{ site.theme.header_text }}</div>
   {% endif %}
@@ -11,26 +10,22 @@ layout: default
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
-    
       <header>
         <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h1>
-        
         <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
       </header>
 
       <div class="excerpt">
         {{ post.content }}
       </div>
-      
     </div>
     {% endfor %}
   </div>
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
-  
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
       <i class="fa fa-chevron-left"></i> 
