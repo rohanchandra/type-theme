@@ -31,10 +31,10 @@ To resolve the problem we have to generate the ORM ANNOTATED MODEL and set all t
 ![Selecting the collection object](/img/texo_hibernate2.png)
 
 
-![Create new Gen Annotation for object](/img/texo_hibernate3.PNG)
+![Create new Gen Annotation for object]( texo_hibernate3.png)
 
 
-![set use list = false](/img/texo_hibernate4.PNG)
+![set use list = false]( texo_hibernate4.png)
 
 
 
