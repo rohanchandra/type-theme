@@ -3,10 +3,12 @@ layout: post
 title: Use Hibernate with Texo Model Entities
 description : Generating texo models and link with hibernate can be sometime rude giving exception as Failed to create sessionFactory ArrayList cannot be cast to Set
 ---
-[Hibernate](http://hibernate.org/orm/) is the best [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) in Java. It provides a wrapper in .NET also as NHiberate.
 
-But it can be tough when you have alot of entities to create manually and create a reference between them. The most comprehensive task is to manually develop the relationship between them. Yes there is database-approach also which generates all the things from the database. 
-We are currently supposing model first approach and then connect database with it. Eclipse provides many tools to generate the simple POJO classes by a simple visualizer. [Texo](http://wiki.eclipse.org/Texo) is one of the good plugin in Eclipse that generate entities from EMF ecore models. When you connect the texo generated entities with hibernate via mapping in XML files. It pop out an error that
+
+[Hibernate](http://hibernate.org/orm/) is the best [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) in Java. It provides a wrapper in .NET also as NHiberate.
+But it can be tough when you have alot of entities to create manually and create a reference between them. The most comprehensive task is to manually develop the relationship between them. Yes there is database-approach also which generates all the things from the database, We are currently supposing model first approach and then connect database with it. 
+
+Eclipse provides many tools to generate the simple POJO classes by a simple visualizer. [Texo](http://wiki.eclipse.org/Texo) is one of the good plugin in Eclipse that generate entities from EMF ecore models. When you connect the texo generated entities with hibernate via mapping in XML files. It pop out an error that
 
 <blockquote>
 <p>
