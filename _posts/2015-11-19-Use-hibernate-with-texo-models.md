@@ -24,10 +24,13 @@ To resolve the problem we have to generate the ORM ANNOTATED MODEL and set all t
 </p>
 </blockquote>
 
-
 ![Generate the Texo Hibernate](/img/texo_hibernate1.PNG)
+
 ![Selecting the collection object](/img/texo_hibernate2.PNG)
+
 ![Create new Gen Annotation for object](/img/texo_hibernate3.PNG)
+
 ![set use list = false](/img/texo_hibernate4.PNG)
+
 
 
