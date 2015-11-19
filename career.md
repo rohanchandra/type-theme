@@ -8,6 +8,42 @@ feature-img: "img/sample_feature_img_2.png"
 
 
 
+
+
+<div style="float:right">
+March 2015 - Present
+</div>
+<h3>Software Engineer - Nakisa</h3>
+Main responsibilities are System Analysis & Design, feature development and maintenance. 
+<ul>
+<li><span style="font-weight:bold">Feature Development </span>
+<br/>
+Worked as team in different modules for different clients and integration with SAP Backend. 
+</li>
+<li>
+<span style="font-weight:bold">Maintenance</span>
+<br/>
+Involved in maintenance of different modules of products. 
+</li>
+</ul>
+
+#### Projects & Technologies
+### SAP Human Resource – Human Capital Management Solutions 
+<ul>
+<li>Nakisa OrgChart Enterprise enables you to easily and readily visualize your entire workforce in real time. With this solution, Managers, HR Professionals & Executives can make informed decisions about resources, provide a framework for managing change, and efficiently communicate operational information, while employees can navigate the org chart to collaborate on projects with other employees and build professional and social communities to support innovation. </li>
+<li>Nakisa OrgAudit  solution provides Managers, HR & Executives with a clear process and the tools they need to analyze, cleanse and monitor HR data for better business decision-making. 
+
+</li>
+<li>
+SuccessionPlanning simplifies the entire succession planning process by identifying talent gaps and assisting with planning future talent needs. You can drive succession planning efficiently by gaining a comprehensive view of your talent pool and potential successors. 
+</li>
+</ul>
+
+
+
+
+
+
 <div style="float:right">
 September 2014 – March 2015 
 </div>
