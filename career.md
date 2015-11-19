@@ -28,7 +28,7 @@ Involved in maintenance of different modules of products.
 </ul>
 
 #### Projects & Technologies
-### SAP Human Resource – Human Capital Management Solutions 
+##### SAP Human Resource – Human Capital Management Solutions 
 <ul>
 <li>Nakisa OrgChart Enterprise enables you to easily and readily visualize your entire workforce in real time. With this solution, Managers, HR Professionals & Executives can make informed decisions about resources, provide a framework for managing change, and efficiently communicate operational information, while employees can navigate the org chart to collaborate on projects with other employees and build professional and social communities to support innovation. </li>
 <li>Nakisa OrgAudit  solution provides Managers, HR & Executives with a clear process and the tools they need to analyze, cleanse and monitor HR data for better business decision-making. 
