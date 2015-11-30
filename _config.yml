@@ -17,7 +17,7 @@ theme:
   
     
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   ZB*2015 Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: true
@@ -25,10 +25,10 @@ theme:
   behance:
   bitbucket:
   dribbble:
-  facebook:
-  flickr:
+  facebook: zihni.babuz
+  flickr: 
   github: "zihnibabuz"
-  google_plus:
+  google_plus: 
   instagram:
   linkedin:  # Full URL
   pinterest:
@@ -36,7 +36,7 @@ theme:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
-  tumblr:
+  tumblr: zbabuz
   twitter: "zihnibabuz"
   wordpress:
   youtube:
