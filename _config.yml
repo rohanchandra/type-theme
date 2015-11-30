@@ -17,7 +17,8 @@ theme:
   
     
   footer_text: >
-   ZB*2015 Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   ZB - 2015
+   <br> Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: true
