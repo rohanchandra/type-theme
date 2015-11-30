@@ -13,7 +13,7 @@ theme:
   # Header and footer text
   header_text: >
     Development blog
-  header_text_feature_image: https://d13yacurqjgara.cloudfront.net/users/112473/screenshots/963968/attachments/110353/HighRes.jpg
+  header_text_feature_image: > https://d13yacurqjgara.cloudfront.net/users/112473/screenshots/963968/attachments/110353/HighRes.jpg
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
