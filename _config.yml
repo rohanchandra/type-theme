@@ -6,7 +6,7 @@ url: "http://zihnibabuz.github.io" # the base hostname & protocol for your site
 theme:
   # Meta
   title: Zihni Babuz
-  avatar: avatar.png
+  avatar: lighthouselogo.png
   gravatar: # Email MD5 hash
   description: "Development blog" # used by search engines
 
