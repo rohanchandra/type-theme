@@ -7,11 +7,11 @@ description :Synchronize visual studio code settings across multiple machines us
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 
 ## Key Features
-	* Use your github account token.
-	* Easy to Upload and Download on one click.
-	* Saves all settings and snippets files.
-	* Upload Key : Ctrl + Alt + u
-	* Download Key : Ctrl + Alt + d
+	 Use your github account token.
+	 Easy to Upload and Download on one click.
+	 Saves all settings and snippets files.
+	 Upload Key : Ctrl + Alt + u
+	 Download Key : Ctrl + Alt + d
 	  
 	
 ## Steps To Get the Github Key.
