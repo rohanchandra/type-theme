@@ -6,6 +6,8 @@ description :Synchronize visual studio code settings across multiple machines us
 
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 
+
+
 ## Key Features
 	 Use your github account token.
 	 Easy to Upload and Download on one click.
@@ -53,12 +55,10 @@ Copy this Gist ID in order to download the settings in other machines.
 
 ## Download your Settings
 
-
 <strong>Press Ctrl + Alt + d it will ask your github account access token.</strong>
 Enter the github account in the window and click enter.
 
 ![github account access token](/img/upload1.PNG)
-
 
 <strong>Enter Your GIST ID.</strong>
 you need to enter your Gist ID in order to get the all files
@@ -69,8 +69,3 @@ you need to enter your Gist ID in order to get the all files
 You are Done ! All your files are downloaded
 
 ![Enter Your GIST ID](/img/download3.PNG)
-
-
-
-
-
