@@ -45,12 +45,12 @@ You need to save this key for this extension for future use, and dont share this
 <strong>Press Ctrl + Alt + u it will ask your github account access token.</strong>
 Enter the github account in the window and click enter.
 
-![github account access token](/img/upload1.PNG)
+![github account access token](/img/upload1.png)
 
 <strong>Upload your settings automatically and give you GIST ID.</strong>
 Copy this Gist ID in order to download the settings in other machines.
 
-![uploaded automatically](/img/upload2.PNG)
+![uploaded automatically](/img/upload2.png)
 
 
 ## Download your Settings
@@ -58,14 +58,14 @@ Copy this Gist ID in order to download the settings in other machines.
 <strong>Press Ctrl + Alt + d it will ask your github account access token.</strong>
 Enter the github account in the window and click enter.
 
-![github account access token](/img/upload1.PNG)
+![github account access token](/img/upload1.png)
 
 <strong>Enter Your GIST ID.</strong>
 you need to enter your Gist ID in order to get the all files
 
-![Enter Your GIST ID](/img/download2.PNG)
+![Enter Your GIST ID](/img/download2.png)
 
 <strong>Settings Downloaded.</strong>
 You are Done ! All your files are downloaded
 
-![Enter Your GIST ID](/img/download3.PNG)
+![Enter Your GIST ID](/img/download3.png)
