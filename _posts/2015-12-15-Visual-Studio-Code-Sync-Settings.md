@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Synchronize Visual Studio Code Settings across multiple machines.
-description :Synchronize visual studio code settings across multiple machines using your github account. 
+title: Visual Studio Code Settings Synchronization
+description : synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 ---
 
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
