@@ -45,19 +45,16 @@ This extension required your GitHub Account Personal Access Token. You can creat
 
 ![Get Unique Key](/img/github3.PNG)
 
-<blockquote>
-<p>
-You need to save this key for this extension for future use, and dont share this key with anyone as it will get your data without needing to logg in.
-</p>
-</blockquote>
-
+> You need to save this key for this extension for future use, and dont share this key with anyone as it will get your data without needing to logg in.
 
 ## Upload Your Settings For the first time
 
 
-#### Press Shift + Alt + u it will ask your github account access token
+#### Type "Sync : Upload" in command
 
-Enter the github account in the window and click enter.
+> Shortcut key is : Shift + Alt + u
+
+It will open github account page. Enter the github account in the window and click enter.
 
 ![github account access token](/img/upload1.png)
 
@@ -70,7 +67,9 @@ Copy this Gist ID in order to download the settings in other machines.
 
 ## Download your Settings
 
-#### Press Shift + Alt + d it will ask your github account access token
+#### Type "Sync : Download" in command
+
+> Shortcut Key : Shift + Alt + d
 
 Enter the github account in the window and click enter.
 
