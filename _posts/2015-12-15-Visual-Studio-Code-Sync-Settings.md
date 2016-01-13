@@ -21,29 +21,23 @@ I have developed a small utility in order to synchronize your visual studio code
 
 
 ### It Sync
-```
-1. Settings File
 
-2. Keybinding File
+* Settings File
+* Keybinding File
+* Launch File
+* Snippets Folder
+* VSCode Extensions
 
-3. Launch File
-
-4. Snippets Folder
-
-5. VSCode Extensions
-
-```
-	  
 	
 ## Steps To Get the Github Key.
 
 This extension required your GitHub Account Personal Access Token. You can create one simple by looking into the following pictures.
-**Goto Settings / Personal Access Tokens / Generate New Token**
-<strong>Goto Settings / Personal Access Tokens / Generate New Token</strong>
+
+#### Goto Settings / Personal Access Tokens / Generate New Token
 
 ![Goto Settings / Personal Access Tokens](/img/github1.PNG)
 
-<strong>Select Scopes</strong>
+#### Select Scopes
 
 ![Select Scopes](/img/github2.PNG)
 
