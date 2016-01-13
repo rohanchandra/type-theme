@@ -9,17 +9,28 @@ I have developed a small utility in order to synchronize your visual studio code
 
 
 ## Key Features
-	 Use your github account token.
-	 Easy to Upload and Download on one click.
-	 Saves all settings and snippets files.
-	 Upload Key : Ctrl + Alt + u
-	 Download Key : Ctrl + Alt + d
+```
+1. Use your github account token.
+2. Easy to Upload and Download on one click.
+3. Saves all settings and snippets files.
+4. Upload Key : Shift + Alt + u
+5. Download Key : Shift + Alt + d
+6. Type Sync In Order to View all sync options
+```      
+## It Sync
+```
+1. Settings File
+2. Keybinding File
+3. Launch File
+4. Snippets Folder
+5. VSCode Extensions
+```
 	  
 	
 ## Steps To Get the Github Key.
 
 This extension required your GitHub Account Personal Access Token. You can create one simple by looking into the following pictures.
-
+**Goto Settings / Personal Access Tokens / Generate New Token**
 <strong>Goto Settings / Personal Access Tokens / Generate New Token</strong>
 
 ![Goto Settings / Personal Access Tokens](/img/github1.PNG)
