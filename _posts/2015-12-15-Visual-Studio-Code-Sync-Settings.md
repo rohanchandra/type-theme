@@ -9,20 +9,15 @@ I have developed a small utility in order to synchronize your visual studio code
 
 
 ### Key Features
-```
-1. Use your github account token.
 
-2. Easy to Upload and Download on one click.
 
-3. Saves all settings and snippets files.
+* Use your github account token.
+* Easy to Upload and Download on one click.
+* Saves all settings and snippets files.
+* Upload Key : Shift + Alt + u
+* Download Key : Shift + Alt + d
+* Type Sync In Order to View all sync options
 
-4. Upload Key : Shift + Alt + u
-
-5. Download Key : Shift + Alt + d
-
-6. Type Sync In Order to View all sync options
-
-```     
 
 
 ### It Sync
