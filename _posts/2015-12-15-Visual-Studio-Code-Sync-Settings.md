@@ -8,10 +8,12 @@ I have developed a small utility in order to synchronize your visual studio code
 
 <blackquote>
 <p>
-<strong>DOWNLOAD HERE : 
+<strong>MARKETPLACE URL : 
 <a href="https://marketplace.visualstudio.com/items/Shan.code-settings-sync">Visual Studio Code Settings Sync</a></strong>
 </p>
 </blackquote>
+
+> To Install : type "ext install Visual Studio Code Settings Sync"
 
 ### Key Features
 
@@ -92,10 +94,11 @@ You are Done ! All your files are downloaded and it will start downloading your 
 
 ![Enter Your GIST ID](/img/download3.png)
 
+> To Install : type "ext install Visual Studio Code Settings Sync"
 
 <blackquote>
 <p>
-<strong>DOWNLOAD HERE : 
+<strong>MARKETPLACE URL :
 <a href="https://marketplace.visualstudio.com/items/Shan.code-settings-sync">Visual Studio Code Settings Sync</a></strong>
 </p>
 </blackquote>
