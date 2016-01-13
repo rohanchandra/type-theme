@@ -6,7 +6,12 @@ description : synchronize your visual studio code settings across multiple machi
 
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 
-
+<blackquote>
+<p>
+<strong>DOWNLOAD HERE : 
+<a href="https://marketplace.visualstudio.com/items/Shan.code-settings-sync">Visual Studio Code Settings Sync</a></strong>
+</p>
+</blackquote>
 
 ### Key Features
 
@@ -41,7 +46,7 @@ This extension required your GitHub Account Personal Access Token. You can creat
 
 ![Select Scopes](/img/github2.PNG)
 
-<strong>Get Unique Key</strong>
+#### Get Unique Key
 
 ![Get Unique Key](/img/github3.PNG)
 
@@ -83,6 +88,14 @@ you need to enter your Gist ID in order to get the all files
 
 #### Settings Downloaded.
 
-You are Done ! All your files are downloaded
+You are Done ! All your files are downloaded and it will start downloading your extensions in the background and will let you know to restart the VSCode in order to use the installed extensions.
 
 ![Enter Your GIST ID](/img/download3.png)
+
+
+<blackquote>
+<p>
+<strong>DOWNLOAD HERE : 
+<a href="https://marketplace.visualstudio.com/items/Shan.code-settings-sync">Visual Studio Code Settings Sync</a></strong>
+</p>
+</blackquote>
