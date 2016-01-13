@@ -8,24 +8,35 @@ I have developed a small utility in order to synchronize your visual studio code
 
 
 
-## Key Features
+### Key Features
 ```
 1. Use your github account token.
+
 2. Easy to Upload and Download on one click.
+
 3. Saves all settings and snippets files.
+
 4. Upload Key : Shift + Alt + u
+
 5. Download Key : Shift + Alt + d
+
 6. Type Sync In Order to View all sync options
+
 ```     
 
 
-## It Sync
+### It Sync
 ```
 1. Settings File
+
 2. Keybinding File
+
 3. Launch File
+
 4. Snippets Folder
+
 5. VSCode Extensions
+
 ```
 	  
 	
