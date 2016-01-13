@@ -16,7 +16,9 @@ I have developed a small utility in order to synchronize your visual studio code
 4. Upload Key : Shift + Alt + u
 5. Download Key : Shift + Alt + d
 6. Type Sync In Order to View all sync options
-```      
+```     
+
+
 ## It Sync
 ```
 1. Settings File
