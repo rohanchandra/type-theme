@@ -67,6 +67,14 @@ Experience of more than 3 years in IT dealing with wide range of applications an
     - Atlassian JIRA, VersionOne
 
 
+### Educational Background
+
+| Year  | Education |
+| ------------- | ------------- |
+| 2010 - 2014  | Bachelors in Computer Science - University of Central Punjab |
+| 2013  | Microsoft Certified Professional (Programming in HTML5 with JavaScript and CSS3 Specialist.)  |
+| 2013  | Dot Net Specialist – EVS Training Institute.  |
+
 ### Contact me
 
 [shanalikhan@hotmail.com](mailto:shanalikhan@hotmail.com)
