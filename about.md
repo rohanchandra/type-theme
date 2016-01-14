@@ -7,66 +7,64 @@ feature-img: "img/sample_feature_img_2.png"
 ---
 
 
-Like to have a challenging career that utilizes my skills in my area of competence and gives me a chance to be part of a team that contributes towards the value addition of the organization. 
+Experience of more than 3 years in IT dealing with wide range of applications and platforms, experience within multi-tier environments configuration, implementation, solution architect and teams leading roles. Delivered/ deployed mission critical applications/ solutions for world-wide customers on high availability productions environment’s application layer. Introduced/ implemented number of change control process, configuration management policies/ documents within project life cycle.
 
-### Specialities
+### Expertise
 
-<ul>
-<li>Object Oriented Programming </li>
-<li>System Analysis and Design </li>
-<li>Business Design in Enterprise Resource Planning</li>
-<li>MVC , MVVM , Multitier Architecture</li>
-</ul>
+1. Worked in SAP HCM Module Product Development
+2. System Analysis and Design
+3. Business Design in Enterprise Resource Planning
 
-### Languages
-<ul>
-<li>C / C++ , C# , Java , XML / XSL , Javascript , HTML5 / CSS , SQL , XAML , Git</li>
-</ul>
+### Skillset
 
-### Frameworks
+#### Analytic Skills
 
-#### .NET
-<ul>
-<li>Entity Framework , ASP.NET ( Web Forms & MVC ) , LINQ</li>
-</ul>
-#### Java
-<ul>
-<li>Spring</li>
-</ul>
+- UML
+- Data Modeling
+- Eclipse Modeling Framework
 
-#### Javascript
-<ul>
-<li>NodeJS , ExpressJS , socket.io , AngularJS , BackboneJS</li>
-<li>JS Task Runner : GruntJS
-</li>
-<li>JS Package Manager : NPM</li>
-</ul>
+#### Technical Skills
 
-### Front-end Frameworks
-<ul>
-  <li>Zurb Foundation 5</li>
-  <li>Twitter Bootstrap 3</li>
-  <li>Semantic UI</li>
-</ul>
+##### Front-end
 
-### Template-engines
-<ul><li>Jade</li>
-</ul>
+- HTML / CSS
+- Typescript, AngularJS, JQuery
+- Twitter Bootstrap, ZURB Foundation, Semantic UI
 
-### Databases
-<ul><li>MS SQL , Oracle , MongoDB</li>
-</ul>
+##### Back-end
 
-### Cloud & Servers
-<ul><li>Heroku , Microsoft Azure </li>
-</ul>
+- Spring Framework, ASP.NET MVC/ Web API
+- NodeJS, ExpressJS, SocketIO
 
-### Certifications 
-<ul>
-<li>MCP – Microsoft Certified Professional (Programming in HTML5 with JavaScript and CSS3 Specialist.)</li>
-<li>DOT Net Specialist – E-Ventures Solutions Professional Training Institute.</li>
-</ul>
+##### ORM
 
+- Entity Framework, Hibernate
+
+##### Task Runner
+
+- GruntJS
+
+##### Template Engine
+
+- Jade
+
+##### Other
+
+- C++, C#, Java, XML, XSLT, SQL, JavaScript
+
+#### Data ware house
+
+- MSSQL, Oracle, Elastic Search
+
+#### Version Controls
+- Git 
+- SVN (Subeclipse)
+
+#### Software Development Methodology
+
+- Scrum
+- Agile Project Management Tools 
+    - Atlassian JIRA, VersionOne
 
 
 ### Contact me
