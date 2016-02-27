@@ -53,8 +53,21 @@ theme:
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
+gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "blog/page:num"
+
+# DEFAULTS
+defaults:
+-   scope:
+        type: "posts"
+    values:
+        layout: "post"
+-   scope:
+        type: "pages"
+    values:
+        layout: "page"
+        
 
 # BUILD SETTINGS
 markdown: kramdown

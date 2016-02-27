@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Night walks
-feature-img: "img/night.JPG"
+feature-img: "night.JPG"
 ---
 I can&rsquo;t remember when I started going for walks &ndash; often long walks &ndash; most nights. But when I lived in North Melbourne, until just over a year ago, I had several routes hard-wired into my memory, so that on setting out, it was just a matter of choosing which one to take.
 
