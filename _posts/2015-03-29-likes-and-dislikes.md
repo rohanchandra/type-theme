@@ -3,6 +3,7 @@ layout: post
 title: Likes and dislikes
 ---
 > *I like, I don't like:* This is of no importance to anyone; this, apparently, has no meaning. And yet all this means: *my body is not the same as yours.* Hence, in this anarchic foam of tastes and distastes, a kind of listless blur, gradually appears the figure of a bodily enigma, requiring complicity or irritation. Here begins the intimidation of the body, which obliges others to endure me *liberally*, to remain silent or polite confronted by pleasures or rejections which they do not share.  
+
 — Roland Barthes, *Roland Barthes*
 
 I've always loved this passage (preceded by a list of Barthes' own likes and dislikes) in which Barthes seems to grasp a disavowed violence at the heart of sentiments like "à chacun son goût".
