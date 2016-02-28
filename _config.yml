@@ -11,6 +11,7 @@ theme:
   description: "Angus Gordon's personal blog" # used by search engines
   
   # Header and footer text
+  # header_text:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
   
