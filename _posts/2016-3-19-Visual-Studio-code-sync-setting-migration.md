@@ -1,4 +1,5 @@
 ---
+date: "2016-03-19"
 layout: post
 title: Visual Studio Sync Settings Migration 
 description : Migration to new version for extension Visual Studio Code Sync Settings supporting multiple file formats in snippets folder
