@@ -3,6 +3,9 @@ layout: post
 title: Visual Studio Code Sync Settings Release Notes
 description : Release notes for visual studio code sync settings
 ---
+Here are the release notes for each of the version released.
+
+
 
 **Version - 1.2.2**
 - Removed Old Migration Code
