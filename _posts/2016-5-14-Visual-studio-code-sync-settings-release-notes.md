@@ -8,8 +8,8 @@ Here are the release notes for each of the version released.
 
 
 **Version - 1.2.2**
-- Removed Old Migration Code
-- Added Release Notes menu in sync command
+* Removed Old Migration Code
+* Added Release Notes menu in sync command
 
 **Version - 1.2.0**
-- Adding [locale.json](https://code.visualstudio.com/docs/customization/locales) sync support
+* Adding [locale.json](https://code.visualstudio.com/docs/customization/locales) sync support
