@@ -7,6 +7,13 @@ Here are the release notes for each of the version released.
 
 
 
+
+**Version - 1.2.3**
+
+
+* Fixed Issue [#34](https://github.com/shanalikhan/code-settings-sync/issues/34)
+
+
 **Version - 1.2.2**
 
 
