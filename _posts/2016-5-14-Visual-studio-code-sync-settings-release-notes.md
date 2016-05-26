@@ -6,6 +6,11 @@ description : Release notes for visual studio code sync settings
 Here are the release notes for each of the version released.
 
 
+**Version - 1.3.0**
+
+
+* Merged Pull Request for Proxies Support [#34](https://github.com/shanalikhan/code-settings-sync/pull/37)
+
 
 
 **Version - 1.2.3**
