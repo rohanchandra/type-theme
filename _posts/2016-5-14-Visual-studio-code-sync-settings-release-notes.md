@@ -5,6 +5,11 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 1.4.0**
+
+
+* Added functionality for delete extenions, when the user downloads the new extension file from the gitHub which has some extensions deleted that are in the computer. It will now delete those extenions.
+
 
 **Version - 1.3.0**
 
