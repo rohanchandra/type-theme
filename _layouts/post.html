@@ -13,13 +13,13 @@ layout: default
 </article>
 
 <!-- Post navigation -->
-{% if site.theme.post_navigation %}
+{% if site.theme_settings.post_navigation %}
 <div id="post-nav">
     {% if page.previous.url %}
     <a id="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">
       <span class="page-title">{{ page.previous.title }}</span>
       <span class="nav-label">
-        <i class="fa fa-chevron-left"></i> {{ site.theme.str_prev }}
+        <i class="fa fa-chevron-left"></i> {{ site.theme_settings.str_prev }}
       </span>
     </a>
     {% endif %}
@@ -27,7 +27,7 @@ layout: default
     <a id="next-post" href="{{ site.baseurl }}{{ page.next.url }}">
        <span class="page-title">{{ page.next.title }}</span>
        <span class="nav-label">
-        {{ site.theme.str_next }} <i class="fa fa-chevron-right"></i>
+        {{ site.theme_settings.str_next }} <i class="fa fa-chevron-right"></i>
        </span>
      </a>
     {% endif %}
@@ -35,7 +35,7 @@ layout: default
 {% endif %}
 
 <!-- Disqus -->
-{% if site.theme.disqus_shortname %}
+{% if site.theme_settings.disqus_shortname %}
 <div class="comments">
   {% include disqus.html %}
 </div>
