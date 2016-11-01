@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.angusgordon.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: Grid life
   avatar:
@@ -14,7 +14,7 @@ theme:
   # header_text:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
-  
+
   # Icons
   rss: true
   email_address: angus@angusgordon.com
@@ -40,8 +40,8 @@ theme:
   # Scripts
   google_analytics: UA-60775800-1
   disqus_shortname:
-  katex: true # Enable if using math markup 
-  
+  katex: true # Enable if using math markup
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -52,9 +52,12 @@ theme:
   
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
 
 # PAGINATION
-gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "blog/page:num"
 
@@ -76,4 +79,5 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
+gems: [jekyll-paginate]
 encoding: UTF-8
