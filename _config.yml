@@ -8,7 +8,7 @@ theme_settings:
   title: Zhang Yuting
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "" # used by search engines
+  description: "haha" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -36,7 +36,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: 
   wordpress:
   youtube:
 
