@@ -7,7 +7,7 @@ $font-size: 1.25em;
 // Padding
 $padding-large: 20%;
 $padding-small: 5%;
-$padding-x-small: 3%;
+$padding-x-small: 2%;
 
 // Brand colours
 $brand-color: #fff;
@@ -15,17 +15,17 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #3FBFBF;
-$link-color: #1ABC9C;
-$selection-color: #3FBFBF; // visible when highlighting text
+$text-color: #383838;
+$link-color: #3FBF7F;
+$selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
-$header-link-color: #3FBFBF;
+$header-link-color: #383838;
 
 // Feature image for articles
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #3FBFBF;
+$header-desc-background-color: #3FBF7F;
 $header-desc-text-color: #FFF;
