@@ -26,6 +26,7 @@ body {
   font-family: $font-family-main;
   font-size: 1.0em;
   word-wrap: break-word;
+  line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
@@ -74,7 +75,8 @@ table,
 dl,
 blockquote,
 code{
- font-family: $font-family-main;
+  font-family: $font-family-main;
+  line-height: 1.5;
 }
 kbd,
 pre,
