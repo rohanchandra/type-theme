@@ -73,7 +73,9 @@ th {
 table,
 dl,
 blockquote,
-code,
+code{
+ font-family: $font-family-main;
+}
 kbd,
 pre,
 samp {
