@@ -1,34 +1,35 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://zihnibabuz.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: Zihni Babuz
+  avatar: robo2.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Development blog" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+    Development blog
+  header_text_feature_image:  img/gta.png
+  
+    
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   ZB - 2015
+   <br> Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: "zihnibabuz"
   behance:
   bitbucket:
   dribbble:
-  facebook:
-  flickr:
-  github: "rohanchandra/type-theme"
-  google_plus:
+  facebook: zihni.babuz
+  flickr: 
+  github: "zihnibabuz"
+  google_plus: 
   instagram:
   linkedin:  # Full URL
   pinterest:
@@ -36,14 +37,14 @@ theme_settings:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
-  tumblr:
-  twitter: "twitter"
+  tumblr: zbabuz
+  twitter: "zihnibabuz"
   wordpress:
   youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: zihnibabuz
   katex: true # Enable if using math markup
 
   # Localization strings
