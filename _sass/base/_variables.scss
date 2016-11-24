@@ -1,7 +1,8 @@
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-size: 1.25em;
+$font-family-main: 'Source Sans Pro', Microsoft YaHei, Helvetica, Arial, sans-serif;
+$font-family-headings: 'Source Sans Pro', Microsoft YaHei, Helvetica, Arial, sans-serif;
+$font-header-desc-text: 'Source Sans Pro', Microsoft YaHei, Helvetica, Arial, sans-serif;
+$font-size: 1.5em;
 
 // Padding
 $padding-large: 20%;
@@ -15,7 +16,7 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #383838;
-$link-color: #1ABC9C;
+$link-color: #79cecd;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
@@ -26,5 +27,5 @@ $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #F98752;
+$header-desc-background-color: #79cecd;
 $header-desc-text-color: #FFF;

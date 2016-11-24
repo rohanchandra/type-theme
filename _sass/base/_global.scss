@@ -24,25 +24,26 @@ html {
 body {
   color: $text-color;
   font-family: $font-family-main;
-  font-size: $font-size;
+  font-size: 1.0em;
   word-wrap: break-word;
+  line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
-  line-height: 1.3;
+  line-height: 1.5;
   margin: 0.67em 0;
   a {
     color: $text-color;
   }
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 h4 {
   font-size: 1.15em;
@@ -73,7 +74,10 @@ th {
 table,
 dl,
 blockquote,
-code,
+code{
+  font-family: $font-family-main;
+  line-height: 1.8;
+}
 kbd,
 pre,
 samp {
