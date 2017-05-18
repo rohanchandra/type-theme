@@ -73,3 +73,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 gems: [jekyll-paginate]
+theme: jekyll-theme-type
+exclude:
+  - Gemfile
+  - Gemfile.lock
