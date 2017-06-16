@@ -1,0 +1,37 @@
+---
+layout: page
+title: Tags
+---
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+<div class="home">
+  <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts -->
+  {% for item in (0..site.tags.size) %}
+    {% unless forloop.last %}
+      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+      <a class="button" href="#{{ this_word | cgi_escape }}">
+        <i class="fa fa-tag fa-fw"></i> {{ this_word }} ({{ site.tags[this_word].size }})
+      </a>
+    {% endunless %}
+  {% endfor %}
+
+  <!-- cycles through tag list and creates subheader for each tag name -->
+  {% for item in (0..site.tags.size) %}
+    {% unless forloop.last %}
+      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+      <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+      <ul class="posts-list">
+        <!-- lists all posts corresponding to specific tag -->
+        {% for post in site.tags[this_word] %}
+          {% if post.title != null %}
+            <li>
+              <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+              <small><span>{{ post.date | date_to_string }}</span></small>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endunless %}
+  {% endfor %}
+</div>

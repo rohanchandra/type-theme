@@ -9,7 +9,15 @@ layout: default
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
   </header>
-  <section class="post-content">{{ content }}</section>
+  <section class="post-content">
+    {% for tag in page.tags %}
+      <a class="button" href="{{site.baseurl}}/tags#{{tag}}">
+        <i class="fa fa-tag fa-fw"></i> {{ tag }}
+      </a>
+    {% endfor %}
+    <br /><br />
+    {{ content }}
+  </section>
 </article>
 
 <!-- Post navigation -->
