@@ -20,18 +20,22 @@ title: Tags
   {% for item in (0..site.tags.size) %}
     {% unless forloop.last %}
       {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-      <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
-      <ul class="posts-list">
-        <!-- lists all posts corresponding to specific tag -->
-        {% for post in site.tags[this_word] %}
-          {% if post.title != null %}
-            <li>
-              <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-              <small><span>{{ post.date | date_to_string }}</span></small>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      <h1 id="{{ this_word | cgi_escape }}">{{ this_word }}</h1>
+      <!-- lists all posts corresponding to specific tag -->
+      {% for post in site.tags[this_word] %}
+        {% if post.title != null %}
+          <div class="tagged-post">
+            <h2 class="title">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h2>
+            <div class="meta">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     {% endunless %}
   {% endfor %}
 </div>
