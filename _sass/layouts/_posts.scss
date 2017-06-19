@@ -38,13 +38,13 @@ header {
   h1 {
     margin: 0;
   }
-  .meta {
-    color: rgba($text-color, .5);
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
-    margin: 0;
-    text-transform: uppercase;
-  }
+}
+.meta {
+  color: rgba($text-color, .5);
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
 }
 .feature-image {
   padding: 0%;
