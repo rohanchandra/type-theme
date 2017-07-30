@@ -61,6 +61,9 @@ header {
   width:100%;
   border-bottom: 1px solid $border-color;
   display: flex;
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+  }
   float: left;
 
   a, .page-title {
@@ -78,6 +81,9 @@ header {
     border: 1px solid rgba(255, 255, 255, 0);
     text-align: center;
     width: 50%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
   }
   a:hover {
     @extend a.button:hover;
