@@ -1,6 +1,9 @@
 article,
 .comments {
   @extend %padding-regular;
+  @media screen and (max-width: 576px) {
+    padding: $padding-small;
+  }
   border-bottom: 1px solid $border-color;
   float: left;
   width: 100%;
@@ -46,6 +49,12 @@ header {
   .post-content {
     @extend %padding-regular;
   }
+}
+
+@media screen and (max-width: 576px) {
+  .feature-image .post-content {
+    padding: $padding-small;
+  }  
 }
 // Post navigation
 #post-nav {
