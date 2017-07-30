@@ -16,6 +16,9 @@
 .posts {
   .post-teaser {
     @extend %padding-regular;
+    @media screen and (max-width: 576px) {
+      padding: $padding-small;
+    }
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
