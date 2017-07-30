@@ -5,6 +5,10 @@ Array.prototype.forEach.call(elements, function(element) {
      // Extract math markdown
      var textToRender = element.innerText || element.textContent;
 
+     // Kramdown and KaTeX workaround
+     // https://github.com/rohanchandra/type-theme/issues/47
+     textToRender = textToRender.replace(/%.*/g, '');
+
      // Create span for KaTeX
      var katexElement = document.createElement('span');
 

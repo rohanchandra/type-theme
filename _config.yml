@@ -3,7 +3,7 @@ baseurl: "/type-theme"
 url: "https://rohanchandra.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: Type Theme
   avatar: avatar.png
@@ -17,7 +17,7 @@ theme:
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
@@ -44,6 +44,7 @@ theme:
   # Scripts
   google_analytics: "UA-58431978-1"
   disqus_shortname:
+  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
 
   # Localization strings
