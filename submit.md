@@ -28,6 +28,6 @@ Cheers!<br><br>
 
   <input type="hidden" role="uploadcare-uploader" name="content" data-public-key="9cdebcff17e1df93b396" data-images-only /><br>
 
-  <input type="submit" value="Send">
+  <input type="submit" value="Send" class="submit-button">
 </form>
 </div>

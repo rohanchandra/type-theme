@@ -12,28 +12,40 @@ input, textarea, select, button {
   margin: 0 auto;
 
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
-     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
-          box-sizing: border-box;
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
 }
 
 input[type=submit] {
-    padding: 5px 15px;
-    background: #ccc;
-    border: 0 none;
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-input[type=text], [type=email], [type=textarea] {
-    padding: 5px;
-    border: 2px solid #ccc;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+input[type=text], [type=email] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .uploadcare--widget__button, .uploadcare--widget__button_type_open {
   background-color: #0173B1 !important;
+}
+
+.submit-button {
+  padding-top: 10px;
 }
 
 .box {
