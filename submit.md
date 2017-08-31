@@ -14,15 +14,20 @@ Let me know if;<br><br>
   <li>I can print your name / website / twitter / etc as credit</li>
 </ul>
 Cheers!<br><br>
+
 <form action="https://formspree.io/kittysquee@gmail.com"
       method="POST">
   <label for="name">Name</label>
-  <input type="text" name="name" placeholder="name"><br>
+  <input type="text" name="name" placeholder="Your name"><br>
+
   <label for="_replyto">Email</label>
-  <input type="email" name="_replyto" placeholder="email"><br>
+  <input type="email" name="_replyto" placeholder="your@email.com"><br>
+
   <label for="message">Message</label>
-  <input type="text area" name="message" placeholder="message"><br>
+  <textarea rows="4" name="message" placeholder="What do you want to say?"></textarea><br>
+
   <input type="hidden" role="uploadcare-uploader" name="content" data-public-key="9cdebcff17e1df93b396" data-images-only /><br>
+
   <input type="submit" value="Send">
 </form>
 </div>
