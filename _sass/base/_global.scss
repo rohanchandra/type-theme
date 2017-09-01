@@ -7,6 +7,16 @@ html {
   background: $background-color;
 }
 
+.box {
+  background: white;
+  max-width: 700px;
+  margin: 2em auto;
+  font-size: 1.5em;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 20px 20px 49px 0px rgba(0,0,0,0.1);
+}
+
 // typography
 ::selection {
   background: $selection-color;
