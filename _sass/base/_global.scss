@@ -7,6 +7,47 @@ html {
   background: $background-color;
 }
 
+input, textarea, select, button {
+  width : 100%;
+  margin: 0 auto;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=text], [type=email] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.uploadcare--widget__button, .uploadcare--widget__button_type_open {
+  background-color: #0173B1 !important;
+}
+
+.submit-button {
+  padding-top: 10px;
+}
+
 .box {
   background: white;
   max-width: 700px;
