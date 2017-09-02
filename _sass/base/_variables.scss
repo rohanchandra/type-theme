@@ -14,16 +14,16 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // typography colors
 $text-color: #383838;
-$link-color: #0173B1;
+$link-color: #283e4a;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // header colors
-$header-link-color: #383838;
+$header-link-color: #white;
 
 // feature image for articles
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // header description box
-$header-desc-background-color: #0173B1; 
+$header-desc-background-color: #283e4a;
 $header-desc-text-color: #FFF;
