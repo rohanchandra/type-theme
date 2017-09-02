@@ -5,24 +5,29 @@ article,
   float: left;
   width: 100%;
 }
-article {
-  header {
-    margin-bottom: 6%;
-    text-align: center;
-  }
-  a:hover {
-    @extend %link-hover;
-  }
-  .footnotes {
-    font-size: 0.9em;
-  }
+
+header {
+  text-align: center;
+  background-color: #0077b5;
+  color: white !important;
+  width: 100%;
+  border-radius: 10px;
 }
+.footnotes {
+  font-size: 0.9em;
+}
+.title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
 header {
   h1 {
     margin: 0;
+    width: 100%;
   }
   .meta {
-    color: rgba($text-color, .5);
+    color: white;
     font-size: 0.9em;
     letter-spacing: 0.1em;
     margin: 0;

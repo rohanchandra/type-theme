@@ -5,11 +5,11 @@
   display: inline-block;
   float: left;
   width: 100%;
-  
+
   a {
     color: $header-link-color;
   }
-  
+
   .avatar {
     height: 2em;
     width: 2em;
@@ -18,12 +18,15 @@
     border-radius: 0.2em;
     margin-right: 1em;
   }
-  
+
   .site-title {
     float: left;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2em;
     line-height: 1.5;
+    background-color: #0077b5;
+    max-width: 200px;
+    border-radius: 10px;
   }
 
   .site-nav {
@@ -47,7 +50,7 @@
         padding-top: $padding-small;
         text-align: left;
         width: 100%;
-      } 
+      }
     }
   }
 }
