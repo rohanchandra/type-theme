@@ -5,21 +5,25 @@ article,
   float: left;
   width: 100%;
 }
-article {
-  header {
-    margin-bottom: 6%;
-    text-align: center;
-  }
-  a:hover {
-    @extend %link-hover;
-  }
-  .footnotes {
-    font-size: 0.9em;
-  }
+
+header {
+  margin-bottom: 6%;
+  text-align: center;
+  background-color: #283e4a;
+  color: white;
+  width: 100%;
 }
+a:hover {
+  @extend %link-hover;
+}
+.footnotes {
+  font-size: 0.9em;
+}
+
 header {
   h1 {
     margin: 0;
+    width: 100%;
   }
   .meta {
     color: rgba($text-color, .5);
