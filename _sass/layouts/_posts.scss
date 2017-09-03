@@ -13,8 +13,8 @@ article {
     margin-bottom: 6%;
     text-align: center;
   }
-  a:hover {
-    @extend %link-hover;
+  a {
+    @extend .body-link;
   }
   .footnotes {
     font-size: 0.9em;
@@ -54,7 +54,7 @@ header {
 @media screen and (max-width: 576px) {
   .feature-image .post-content {
     padding: $padding-small;
-  }  
+  }
 }
 // Post navigation
 #post-nav {
@@ -77,6 +77,7 @@ header {
   }
 
   a {
+    @extend .button-link;
     padding: 2em 3em;
     border: 1px solid rgba(255, 255, 255, 0);
     text-align: center;
@@ -85,12 +86,8 @@ header {
       width: 100%;
     }
   }
-  a:hover {
-    @extend a.button:hover;
-  }
 
   i {
     vertical-align: middle;
   }
 }
-
