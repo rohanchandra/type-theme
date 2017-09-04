@@ -1,11 +1,3 @@
-{% if site.rss %}
-<li>
-	<a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" title="{{ site.str_rss_follow }}">
-		<i class="fa fa-fw fa-rss"></i>
-	</a>
-</li>
-{% endif %}
-
 {% if site.email_address %}
 <li>
 	<a href="mailto:{{ site.email_address }}" title="{{ site.str_email }}">

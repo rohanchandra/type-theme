@@ -15,7 +15,6 @@ footer_text: >
  Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a> and a hatred of idiots.
 
 # Icons
-rss: true
 email_address: "toby.osbourn@gmail.com"
 facebook: "tosbourn"
 twitter: "tosbourn"
@@ -26,7 +25,6 @@ disqus_shortname:
 
 # Localization strings
 str_follow_on: "Follow on"
-str_rss_follow: "Follow RSS feed"
 str_email: "Email"
 str_next: "Next"
 str_prev: "Prev"
@@ -38,7 +36,6 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
