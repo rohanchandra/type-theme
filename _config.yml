@@ -52,9 +52,10 @@ theme_settings:
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
   str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
