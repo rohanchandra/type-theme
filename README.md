@@ -64,6 +64,7 @@ Meta variables hold basic information about your Jekyll site which will be used 
 
 Change these variables in `_config.yml`:
 
+
 Variable | Example | Description | Optional
 -|-|-|
 title | My Jekyll Blog | Name of website | Yes
@@ -75,6 +76,7 @@ description | My blog posts  | Short description, primarily used by search engin
 
 Change these variables in `_config.yml`:
 
+
 Variable | Example | Description | Optional
 -|-|-|
 header_text | Welcome to my Jekyll blog | HTML (shown below the navigation) with a background colour for emphasis | Yes
@@ -84,6 +86,7 @@ footer_text | Copyright 2014 | HTML (shown at end of the site) with lighter text
 ### Icons
 
 Add your username on selected websites in the icon section of the `_config.yml` file to display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the header navigation. All icon variables should be your username enclosed in quotes (e.g. "username"), except for the following variables:
+
 
 Variable | Example | Description | Optional
 -|-|-|
@@ -95,6 +98,7 @@ stack_exchange | https://stackoverflow.com/users/0000/first-last | Full URL to p
 ### Scripts
 
 Change these variables in `_config.yml`:
+
 
 Variable | Example | Description | Optional
 -|-|-|
@@ -113,6 +117,7 @@ English text used in the theme (such as the "continue reading" label) has been g
 ### Colours, typography, padding
 
 ![A selection of colours set in Type Theme by modifying the CSS](https://cloud.githubusercontent.com/assets/816965/5142488/130869a6-71d7-11e4-8a38-a69ec1673436.png)
+
 
 Variable | Example | Description | Optional
 -|-|-|
