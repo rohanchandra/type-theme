@@ -1,3 +1,6 @@
+.post-content > :last-child {
+  margin-bottom: 0;
+}
 article,
 .comments {
   @extend %padding-regular;
