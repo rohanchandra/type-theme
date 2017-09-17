@@ -61,7 +61,7 @@ Change these variables in `_config.yml`:
 | Variable | Example | Description | Optional |
 |-------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|
 | title | My Jekyll Blog | Name of website | Yes |
-| avatar | avatar.png | Name of avatar image in the `/img` directory, to be displayed in the theme's header | Yes |
+| avatar | assets/img/avatar.png | Path of avatar image, to be displayed in the theme's header | Yes |
 | gravatar | f9879d71855b5ff21e4963273a886bfc | [MD5 hash of your email address](https://secure.gravatar.com/site/implement/hash/) to load your Gravatar in the theme's header | Yes |
 | description | My blog posts | Short description, primarily used by search engines | Yes |
 
@@ -73,7 +73,7 @@ Change these variables in `_config.yml`:
 | Variable | Example | Description | Optional |
 |---------------------------|------------------------------|-------------------------------------------------------------------------|----------|
 | header_text | Welcome to my Jekyll blog | HTML (shown below the navigation) with a background colour for emphasis | Yes |
-| header_text_feature_image | img/sample_feature_img_3.png | Background image for the header text | Yes |
+| header_text_feature_image | assets/img/sample_feature_img_3.png | Background image for the header text | Yes |
 | footer_text | Copyright 2014 | HTML (shown at end of the site) with lighter text | Yes |
 
 ### Icons
@@ -166,7 +166,7 @@ For example:
 ---
 layout: post
 title: Hello World
-feature-img: "img/sample_feature_img.png"
+feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
