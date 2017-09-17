@@ -14,11 +14,6 @@ layout: default
   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 </article>
 
-<!-- Post navigation -->
-{% if site.theme_settings.post_navigation %}
-  {% include post_nav.html %}
-{% endif %}
-
 <!-- Disqus -->
 {% if site.theme_settings.disqus_shortname %}
 <div class="comments">
@@ -31,4 +26,9 @@ layout: default
 <div class="comments">
   {% include muut.html %}
 </div>
+{% endif %}
+
+<!-- Post navigation -->
+{% if site.theme_settings.post_navigation %}
+  {% include post_nav.html %}
 {% endif %}
