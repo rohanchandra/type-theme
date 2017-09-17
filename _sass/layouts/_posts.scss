@@ -15,8 +15,8 @@ article {
     margin-bottom: 6%;
     text-align: center;
   }
-  a:hover {
-    @extend %link-hover;
+  a {
+    @extend .body-link;
   }
   .footnotes {
     font-size: 0.9em;
@@ -92,13 +92,11 @@ header {
   }
 
   a {
+    @extend .body-link;
     padding: 2em 3em;
     border: 1px solid rgba(255, 255, 255, 0);
     text-align: center;
     width: 50%;
-  }
-  a:hover {
-    @extend a.button:hover;
   }
 
   i {
