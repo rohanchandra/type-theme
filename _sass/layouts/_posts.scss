@@ -50,11 +50,6 @@ header {
   }
   .post-content {
     @extend %padding-regular;
-    padding-bottom: 0;
-  }
-  footer {
-    @extend %padding-regular;
-    padding-top: 0;
   }
 }
 // Post navigation
