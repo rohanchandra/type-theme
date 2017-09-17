@@ -39,4 +39,7 @@
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
+  @media (max-width: 600px) {
+    padding: $padding-small;
+  }
 }
