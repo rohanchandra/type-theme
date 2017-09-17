@@ -8,17 +8,11 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and
 
 ## Usage
 
-1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme)
-2. [Install Jekyll](https://jekyllrb.com/docs/installation/) using `gem install jekyll`
-3. Install the theme's dependencies using `bundle install`
-4. Customize the theme
-5. Run the Jekyll server, using `jekyll serve`
-
-## New to Jekyll, Git or Github Pages?
-
-If you are new to Jekyll and/or Git and would like to host your Jekyll blog using Github Pages, view a detailed installation walkthrough for Type Theme at:
-
-<a href="/project/type/github/" class="button">Using Type Theme with Github Pages</a>
+1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
+2. [Install Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`
+3. Install the theme's dependencies: `bundle install`
+4. Customize the theme (see below)
+5. Run the Jekyll server: `jekyll serve`
 
 ## Customizing Type Theme
 
