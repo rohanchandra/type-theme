@@ -128,10 +128,6 @@ $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
 
 Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) is a helpful tool to get your preferred colours in hexadecimal or RGBA form for use in `_variables.scss`.
 
-### Favicon
-
-To change your favicon, usually displayed in the browser, place an ICO file named `favicon.ico` in the root directory of your blog.
-
 ## Posts and pages in Type Theme
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
 
