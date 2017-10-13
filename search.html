@@ -2,6 +2,7 @@
 layout: page
 title: Search
 ---
+
 <form action="search.html" method="get">
 <div>
   <input type="text" id="search-box" name="query" placeholder="Enter keywords..." class="form input-bar">
@@ -27,5 +28,6 @@ title: Search
     {% endfor %}
   };
 </script>
+
 <script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/search.js"></script>
