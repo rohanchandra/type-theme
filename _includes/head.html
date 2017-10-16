@@ -25,7 +25,7 @@
 	{% endif %}
 
 	<!-- KaTeX -->
-	{% if site.theme_settings.katex %}
+	{% if site.theme_settings.katex or page.katex %}
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.js"></script>
 	{% endif %}

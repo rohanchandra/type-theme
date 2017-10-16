@@ -132,7 +132,7 @@ Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Col
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
 
 ### Math typesetting
-Wrap math expressions with `$$` signs in your posts and make sure you have set the `katex` variable in `_config.yml` to `true` for math typesetting.
+Wrap math expressions with `$$` signs in your posts and make sure you have set the `katex` variable in `_config.yml` to `true` if you want math typesetting in all pages or use `katex: true` in post frontmatter.
 
 For inline math typesetting, type your math expression on the *same line* as your content. For example:
 
