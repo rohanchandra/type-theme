@@ -26,6 +26,17 @@
 			{% endfor %}
 			<!-- Social icons from Font Awesome, if enabled -->
 			{% include icons.html %}
+            <li>
+            <form action="{{ site.baseurl }}/search.html" method="get">
+                <div>
+                    <input type="text" id="search-box" name="query" placeholder="Search..." class="">
+                    <button type="submit" class="">
+                            <i class="fa fa-fw fa-search"></i>
+                        </button>
+                </div>
+            </form>
+            </li>
 		</ul>
 	</nav>
+    
 </header>
