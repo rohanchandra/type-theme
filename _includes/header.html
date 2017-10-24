@@ -28,6 +28,7 @@
 			{% include icons.html %}
             
             <!-- Search bar -->
+            {% if site.theme_settings.search %}
             <li>
             <form action="{{ site.baseurl }}/search.html" method="get">
                 <input type="text" id="search-box" name="query" placeholder="Search" class="">
@@ -36,6 +37,7 @@
                 </button>
             </form>
             </li>
+            {% endif %}
 		</ul>
 	</nav>
     
