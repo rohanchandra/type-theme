@@ -50,61 +50,54 @@
       }
     }
   }
-}
-
-/* --- Search form --- */
-form {
-    width: 130px;
-    border-bottom: solid #ccc;
-    outline: 0;
-    border-width: 0 0 2px 0;
-    text-align: left;
-    margin-top: -8px;
-   
     
-    *:focus {
-        outline: none;
+    /* --- Search form --- */
+    form {
+        width: 130px;
+        border-bottom: solid #ccc;
+        outline: 0;
+        border-width: 0 0 2px 0;
+        text-align: left;
+        margin-top: -13px;
+
+
+        *:focus {
+            outline: none;
+        }
+
+        input{ 
+            &[type=text] {
+                width: 90px;
+                box-sizing: border-box;
+                border: 0;
+                outline: 0;
+                background-color: $brand-color;
+                padding: 10px 10px 0px 0px;
+                font-size: 1em;
+                color: $search-color;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+
+
+            &::-moz-placeholder {
+                color: $search-color;
+                opacity: 1;
+            }
+
+            &:-ms-input-placeholder, &::-webkit-input-placeholder {
+                color: $search-color;
+            }
+        }
+
+        button {
+           padding: 10px 0px 0px 10px;
+           border: none;
+           font-size: 0.9em;
+           background-color: $brand-color;
+           color: $search-color;
+        }    
     }
-    
-    input{ 
-        &[type=text] {
-            width: 90px;
-            box-sizing: border-box;
-            border: 0;
-            outline: 0;
-            background-color: $brand-color;
-            padding: 10px 10px 0px 0px;
-            font-size: 1em;
-            color: $search-color;
-            -webkit-transition: width 0.4s ease-in-out;
-            transition: width 0.4s ease-in-out;
-        }
-    
-    
-        &::-moz-placeholder {
-            color: $search-color;
-            opacity: 1;
-        }
 
-        &:-ms-input-placeholder, &::-webkit-input-placeholder {
-            color: $search-color;
-        }
-    }
-    
-    button {
-       padding: 10px 0px 0px 10px;
-       border: none;
-       font-size: 0.9em;
-       background-color: $brand-color;
-       color: $search-color;
-    }    
 }
-
-
-
-
-
-
-
-
 
