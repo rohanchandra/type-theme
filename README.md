@@ -20,7 +20,7 @@ Open `_config.yml` in a text editor to change most of the blog's settings.
 
 If a variable in this document is marked as "optional", disable the feature by removing all text from the variable. For example, to prevent the avatar from rendering in the header, the avatar line should read:
 
-```
+```yml
 theme:
   title: Type Theme
   avatar:
@@ -36,7 +36,7 @@ The most common configurations, included here for guidance, are:
 
 Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
 
-```
+```yml
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://username.github.io"
@@ -44,7 +44,7 @@ url: "https://username.github.io"
 
 Jekyll website *with* subpath (like the Type Theme demo page):
 
-```
+```yml
 # SITE CONFIGURATION
 baseurl: "/sub-directory"
 url: "https://username.github.io/"
@@ -120,7 +120,7 @@ Navigate to the `_sass > base` directory and open `_variables.scss` to change co
 
 Once you have loaded a Google Font in `config.yml`, you can integrate the fonts into your CSS by changing the font-family in `_variables.scss`. For example, after loading the Playfair Display and PT Sans fonts from Google:
 
-```
+```css
 // Typography
 $font-family-main: 'PT Sans', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
@@ -136,13 +136,13 @@ Wrap math expressions with `$$` signs in your posts and make sure you have set t
 
 For inline math typesetting, type your math expression on the *same line* as your content. For example:
 
-```
+```latex
 Type math within a sentence $$2x^2 + x + c$$ to display inline
 ```
 
 For display math typesetting, type your math expression on a *new line*. For example:
 
-```
+```latex
 $$
   \bar{y} = {1 \over n} \sum_{i = 1}^{n}y_i
 $$
@@ -158,7 +158,7 @@ Add a feature image by specifying a path to an image in the [front matter](http:
 
 For example:
 
-```
+```yml
 ---
 layout: post
 title: Hello World
@@ -172,7 +172,7 @@ In the Front Matter of a page, add `hide: true` to prevent the page from showing
 
 For example:
 
-```
+```yml
 ---
 layout: page
 title: "Error 404: Page not found"
@@ -187,7 +187,7 @@ Post tags should be placed between `[]` in your post metadata. Seperate each tag
 
 For example:
 
-```
+```yml
 ---
 layout: post
 title: Markdown and HTML
@@ -204,7 +204,7 @@ To enable this feature, add `subtitle` to your post metadata.
 
 For example:
 
-```
+```yml
 ---
 layout: post
 title: "This is a title"
