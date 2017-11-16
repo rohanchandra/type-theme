@@ -19,7 +19,7 @@ hide: true
       {% if post.title != null %}
         <div class="tagged-post">
           <h3 class="title">
-            <a href="{{ post.url | prepend: site.baseurl }}">
+            <a href="{{ post.url | relative_url }}">
               {{ post.title }}
             </a>
           </h3>
