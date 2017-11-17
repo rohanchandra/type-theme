@@ -3,6 +3,7 @@
         var searchResults = document.getElementById('search-results');
 
         if (results.length) { // Are there any results?
+            document.getElementById('not-found').style.visibility = 'hidden';
             var appendString = '';
 
             for (var i = 0; i < results.length; i++) { // Iterate over the results
@@ -14,7 +15,8 @@
 
             searchResults.innerHTML = appendString;
         } else {
-            searchResults.innerHTML = '<p>No results found</p>';
+            //searchResults.innerHTML = '<p>{{ site.search_no_results }}</p>';
+            
         }
     }
 

@@ -4,7 +4,13 @@ title: Search
 hide: true
 ---
 
-<div id="search-results" class="search"></div>
+<div class="search">
+    <div id="search-results"></div>
+    <p id="not-found" style="visibility: visible">
+        {{ site.theme_settings.str_search_no_results }}
+    </p>
+</div>
+
 
 <script>
   window.store = {
