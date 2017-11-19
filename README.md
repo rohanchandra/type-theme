@@ -199,14 +199,14 @@ A tags listing will be automatically generated using the `tags.html` file provid
 
 ### Search
 
-The search feature can be activated in the `_config.yml` file by changing its value from false to true.
+The search feature can be activated in the `_config.yml` file by changing its value from `false` to `true`.
 
 ```yml
   #Scripts
   search: true
 ```
 
-Once activated, the search bar will appear in the header. It is working with [lunr.js](https://lunrjs.com/) and search through the title, tag and content of your posts.
+Once activated, the search bar will appear in the header. This feature uses [Lunr](https://lunrjs.com/) and searches through the title, tags and content of your posts.
 
 ### Subtitles
 A subtitle can be displayed below your title on permalink post pages.
