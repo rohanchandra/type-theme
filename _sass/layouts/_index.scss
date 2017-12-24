@@ -12,6 +12,9 @@
 .call-out p:last-child {
   margin-bottom: 0;
 }
+.call-out a {
+  color: $header-desc-link-color
+}
 // Post listing
 .posts {
   .post-teaser {
