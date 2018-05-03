@@ -8,6 +8,7 @@ theme_settings:
   title: Type Theme
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
+  github_uid: # Your github user id
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
@@ -41,6 +42,7 @@ theme_settings:
   tumblr:
   twitter: "twitter"
   wordpress:
+  xing: # Unique, official name of your Xing profile. E.g.: "Dorian_Gray1337"
   youtube:
 
   # Scripts

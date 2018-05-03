@@ -158,6 +158,14 @@
 </li>
 {% endif %}
 
+{% if site.theme_settings.xing %}
+<li>
+	<a href="https://xing.com/profile/{{ site.theme_settings.xing }}/" title="{{ site.theme_settings.str_follow_on }} Xing">
+		<i class="fa fa-fw fa-xing"></i>
+	</a>
+</li>
+{% endif %}
+
 {% if site.theme_settings.youtube %}
 <li>
 	<a href="https://www.youtube.com/user/{{ site.theme_settings.youtube }}" title="{{ site.theme_settings.str_follow_on }} YouTube">
