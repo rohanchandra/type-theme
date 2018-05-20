@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
+baseurl: 
 url: "https://rohanchandra.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
