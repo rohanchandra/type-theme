@@ -16,11 +16,12 @@ Array.prototype.forEach.call(elements, function(element) {
      if (element.type.indexOf('mode=display') != -1){
        katexElement.className += "math-display";
        textToRender = '\\displaystyle {' + textToRender + '}';
+       katex.render(textToRender, katexElement, {displayMode: true});
      } else {
        katexElement.className += "math-inline";
+       katex.render(textToRender, katexElement);
      }
 
-     katex.render(textToRender, katexElement);
      element.parentNode.insertBefore(katexElement, element);
   }
 });
