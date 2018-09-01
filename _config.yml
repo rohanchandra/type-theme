@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+url: "https://grizzee.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
