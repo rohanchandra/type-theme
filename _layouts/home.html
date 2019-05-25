@@ -41,6 +41,11 @@ layout: default
       {{ site.theme_settings.str_previous_page }}
     </a>
     {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+      <a href="{{site.baseurl}}{% if page == 1 %}/{% else %}/blog/page{{ page }}{% endif %}" class="link-page {% if page == paginator.page %}selected{% endif %}">
+        <span>{{ page }}</span>
+      </a>
+    {% endfor %}
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}" class="button" >
       {{ site.theme_settings.str_next_page }}
