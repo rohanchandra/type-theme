@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl: 
+url: "https://tmdrb0707.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: Computistics
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -21,15 +21,15 @@ theme_settings:
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: tmdrb0707@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "github.com/tmdrb0707"
   gitter:
   google_plus:
   instagram:
