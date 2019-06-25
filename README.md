@@ -208,6 +208,9 @@ feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
+By default, the page title will be displayed on top of the feauture image.
+You can change it to something else by specifying the feature-title
+
 ### Hiding pages from navigation
 
 In the Front Matter of a page, add `hide: true` to prevent the page from showing up in the header's navigation bar (visitors can still visit the URL through other means).
