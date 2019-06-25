@@ -208,8 +208,17 @@ feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
-By default, the page title will be displayed on top of the feauture image.
-You can change it to something else by specifying the feature-title
+By default, the page title will be displayed on top of the feature image and on the browser tab.
+You can change the title displayed on the feature image to something else by specifying the feature-title in the [front matter](http://jekyllrb.com/docs/frontmatter/):
+
+```yml
+---
+layout: post
+title: Short title
+feature-title: A much longer title
+feature-img: "assets/img/sample_feature_img.png"
+---
+```
 
 ### Hiding pages from navigation
 
