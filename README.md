@@ -208,8 +208,7 @@ feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
-By default, the page title will be displayed on top of the feature image and on the browser tab.
-You can change the title displayed on the feature image to something else by specifying the feature-title in the [front matter](http://jekyllrb.com/docs/frontmatter/):
+By default, the page title is displayed on top of the feature image, as well as on the browser's tab. You can change the feature image's displayed title by specifying a `feature-title` in the front matter:
 
 ```yml
 ---
@@ -222,7 +221,7 @@ feature-img: "assets/img/sample_feature_img.png"
 
 ### Hiding pages from navigation
 
-In the Front Matter of a page, add `hide: true` to prevent the page from showing up in the header's navigation bar (visitors can still visit the URL through other means).
+In the front matter of a page, add `hide: true` to prevent the page from showing up in the header's navigation bar (visitors can still visit the URL through other means).
 
 For example:
 
