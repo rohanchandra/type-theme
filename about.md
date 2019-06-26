@@ -5,8 +5,8 @@ permalink: /about/
 feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi, my name is Aditya. I was born in Siliguri, India. Currently, I'm living in Varanasi and pursuing Integrated Dual Degree(B.Tech, M.Tech) in Mathematics and Computing at the Department of Mathematical Sciences, Indian Institute of Technology (BHU), Varanasi.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+I want to know how inference and decision-making process in the human brain works, and how humans learn to recall from their previous observations? And finally, how can we encapsulate all these things in a single Algorithm/Model? These questions motivate me to work on Machine Learning. I believe Machine Learning can make our machines intelligent at least it is a fist good way to look into.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+
