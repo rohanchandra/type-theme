@@ -15,7 +15,7 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-			{% for page in site.pages %}
+			{% for page in site.pages | sort: site.theme_settings.site_navigation_sort %}
 			{% if page.title and page.hide != true %}
 			<li>
 				<a class="page-link" href="{{ page.url | relative_url }}">
@@ -26,7 +26,7 @@
 			{% endfor %}
 			<!-- Social icons from Font Awesome, if enabled  -->
 			{% include icons.html %}
-            
+
             <!-- Search bar -->
             {% if site.theme_settings.search %}
             <li>
@@ -40,5 +40,5 @@
             {% endif %}
 		</ul>
 	</nav>
-    
+
 </header>
