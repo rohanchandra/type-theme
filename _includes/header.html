@@ -14,8 +14,10 @@
 		</h1>
 	</div>
 	<nav class="site-nav">
+		<!-- lostisland test -->
 		<ul>
-			{% for page in site.pages | sort: site.theme_settings.site_navigation_sort %}
+			{% assign site_pages = site.pages | sort: site.theme_settings.site_navigation_sort %}
+			{% for page in site_pages %}
 			{% if page.title and page.hide != true %}
 			<li>
 				<a class="page-link" href="{{ page.url | relative_url }}">
