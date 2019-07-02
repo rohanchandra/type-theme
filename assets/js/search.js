@@ -1,93 +1,83 @@
-(function () {
-    var SEARCH_BOX_ID = "search-box";
-    var NO_RESULTS_MESSAGE_ID = "not-found";
-    var SEARCH_RESULTS_CONTAINER_ID = "search-results";
-    var QUERY_VARIABLE_URL_STRING = "query";
+{
+  const SEARCH_BOX_ID = "search-box";
+  const NO_RESULTS_MESSAGE_ID = "not-found";
+  const SEARCH_RESULTS_CONTAINER_ID = "search-results";
+  const QUERY_VARIABLE_URL_STRING = "query";
 
-    function getQueryVariable(queryParam) {
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            var param = pair[0];
-            var value = pair[1];
+  const extractUrlQueryParameter = (fallback = '') => {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const queryParameter = urlSearchParams.get(QUERY_VARIABLE_URL_STRING);
+    return queryParameter === null ? fallback : queryParameter;
+  }
 
-            if (param === queryParam) {
-                return decodeURIComponent(value.replace(/\+/g, "%20"));
-            }
-        }
-    }
+  const setSearchBoxValue = (searchBoxValue) => {
+    document
+      .getElementById(SEARCH_BOX_ID)
+      .setAttribute("value", searchBoxValue);
+  }
 
-    function getSearchTerm() {
-      return getQueryVariable(QUERY_VARIABLE_URL_STRING);
-    }
+  const showNoResultsMessage = () => {
+    document
+      .getElementById(NO_RESULTS_MESSAGE_ID)
+      .style
+      .display = "block";
+  }
 
-    function setSearchBoxValue(searchBoxValue) {
-      document.getElementById(SEARCH_BOX_ID).setAttribute("value", searchBoxValue);
-    }
+  const setSearchResultsHtml = (innerHtml) => {
+    document
+      .getElementById(SEARCH_RESULTS_CONTAINER_ID)
+      .innerHTML = innerHtml;
+  }
 
-    function showNoResultsMessage() {
-      document.getElementById(NO_RESULTS_MESSAGE_ID).style.display = "block";
-    }
+  const createPostListingHtml = (postItem) => `
+    <h2>
+      <a class='search-link' href='${postItem.url}'>${postItem.title}</a>
+    </h2>
 
-    function setSearchResultsHTML(innerHTML) {
-      var searchResults = document.getElementById(SEARCH_RESULTS_CONTAINER_ID);
-      searchResults.innerHTML = innerHTML;
-    }
+    <div class='meta'>
+      ${postItem.date}
+    </div>
 
-    function createPostListingHTML(postItem) {
-      var headingHTML = "<h2><a  class='search-link' href='" + postItem.url + "''>" + postItem.title + "</a></h2>";
-      var metaHTML = "<div class='meta'>" + postItem.date + "</div>";
-      var descriptionHTML = "<p>" + postItem.content.substring(0, 150) + "...</p>";
-      return headingHTML + metaHTML + descriptionHTML;
-    }
+    <p>
+      ${postItem.content.substring(0, 150)}...
+    </p>
+  `;
 
-    function displaySearchResults(results, store) {
-        if (results.length) {
-            var postsListingHTML = "";
-            for (var i = 0; i < results.length; i++) {
-                var postItem = store[results[i].ref];
-                postsListingHTML += createPostListingHTML(postItem);
-            }
-            setSearchResultsHTML(postsListingHTML);
-        } else {
-          showNoResultsMessage();
-        }
-    }
+  const displaySearchResults = (results) => {
+    setSearchResultsHtml(
+      results
+        .map(result => createPostListingHtml(window.store[result.ref]))
+        .join('')
+    );
+  }
 
-    function addPostToSearchIndex(lunrIndex, key, postJSON) {
-      lunrIndex.add({
+  const buildLunrIndex = () => {
+    return lunr(function () {
+      this.field("id");
+      this.field("title", { boost: 10 });
+      this.field("author");
+      this.field("category");
+      this.field("content");
+      for (let key in window.store) {
+        const postJson = window.store[key];
+        this.add({
           "id": key,
-          "title": postJSON.title,
-          "author": postJSON.author,
-          "category": postJSON.category,
-          "content": postJSON.content
-      });
-    }
-
-    function search(searchTerm) {
-      setSearchBoxValue(searchTerm);
-
-      var lunrIndex = lunr(function () {
-          this.field("id");
-          this.field("title", {
-              boost: 10
-          });
-          this.field("author");
-          this.field("category");
-          this.field("content");
-      });
-
-      for (var key in window.store) {
-        addPostToSearchIndex(lunrIndex, key, window.store[key])
+          "title": postJson.title,
+          "author": postJson.author,
+          "category": postJson.category,
+          "content": postJson.content
+        });
       }
+    });
+  }
 
-      var results = lunrIndex.search(searchTerm);
-      displaySearchResults(results, window.store);
-    }
+  const searchFromUrl = () => {
+    const searchTerm = extractUrlQueryParameter();
+    setSearchBoxValue(searchTerm);
+    const lunrIndex = buildLunrIndex();
+    const results = lunrIndex.search(searchTerm);
+    results.length === 0 ? showNoResultsMessage() : displaySearchResults(results);
+  }
 
-    var searchTerm = getSearchTerm();
-    if (searchTerm) {
-      search(searchTerm);
-    }
-})();
+  searchFromUrl();
+};
