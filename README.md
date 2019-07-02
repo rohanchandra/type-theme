@@ -234,6 +234,24 @@ hide: true
 ---
 ```
 
+### Sorting pages in navigation
+
+You can configure this theme to **sort your pages** in the header's navigation bar.
+
+- Set `site_navigation_sort` in theme settings to a property name e.g. `'order'`
+- In the front matter of a non-hidden page, add `order: n`
+
+For example:
+
+```yml
+---
+layout: page
+title: Team
+permalink: /team/
+order: 4
+---
+```
+
 ### Tags
 
 Post tags should be placed between `[]` in your post metadata. Seperate each tag with a comma.
