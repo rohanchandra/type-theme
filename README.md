@@ -128,6 +128,48 @@ $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
 
 Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) is a helpful tool to get your preferred colours in hexadecimal or RGBA form for use in `_variables.scss`.
 
+### Customize style when using the remote_theme
+
+If you're using Type Theme as a `remote_theme`, you can override variables and styles.
+To do so, simply create a `assets/css/main.scss` file on your website with the following content:
+
+```scss
+// assets/css/main.scss
+---
+---
+
+@import "type-theme";
+```
+
+`@import "type-theme";` is including the theme styles, so you can add custom imports before and after it, depending on your needs.
+Best practice is to put your custom files in the `_sass` folder of your progect. Jekyll will automatically look for them there.
+For example, say you wanted to override some theme variables and add some custom styles, you can create the following files:
+
+```scss
+// _sass/_variables.scss
+$background-color: black;
+```
+
+```sass
+// _sass/_custom.sass
+
+// SASS is supported as well, just note the file extension is .sass
+.feature-image header
+  height: 300px
+```
+
+Then import them both into `main.scss`:
+
+```scss
+// assets/css/main.scss
+---
+---
+
+@import "variables";
+@import "type-theme";
+@import "custom";
+```
+
 ## Posts and pages in Type Theme
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
 
@@ -166,9 +208,20 @@ feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
+By default, the page title is displayed on top of the feature image, as well as on the browser's tab. You can change the feature image's displayed title by specifying a `feature-title` in the front matter:
+
+```yml
+---
+layout: post
+title: Short title
+feature-title: A much longer title
+feature-img: "assets/img/sample_feature_img.png"
+---
+```
+
 ### Hiding pages from navigation
 
-In the Front Matter of a page, add `hide: true` to prevent the page from showing up in the header's navigation bar (visitors can still visit the URL through other means).
+In the front matter of a page, add `hide: true` to prevent the page from showing up in the header's navigation bar (visitors can still visit the URL through other means).
 
 For example:
 
@@ -178,6 +231,24 @@ layout: page
 title: "Error 404: Page not found"
 permalink: /404.html
 hide: true
+---
+```
+
+### Sorting pages in navigation
+
+You can configure this theme to **sort your pages** in the header's navigation bar.
+
+- Set `site_navigation_sort` in theme settings to a property name e.g. `'order'`
+- In the front matter of a non-hidden page, add `order: n`
+
+For example:
+
+```yml
+---
+layout: page
+title: Team
+permalink: /team/
+order: 4
 ---
 ```
 
@@ -196,6 +267,17 @@ tags: [sample, markdown, html]
 ```
 
 A tags listing will be automatically generated using the `tags.html` file provided in Type theme. If you're not using the tags feature it is safe to delete `tags.html`.
+
+### Search
+
+The search feature can be activated in the `_config.yml` file by changing its value from `false` to `true`.
+
+```yml
+  #Scripts
+  search: true
+```
+
+Once activated, the search bar will appear in the header. This feature uses [Lunr](https://lunrjs.com/) and searches through the title, tags and content of your posts.
 
 ### Subtitles
 A subtitle can be displayed below your title on permalink post pages.

@@ -1,4 +1,4 @@
-{% if site.theme_settings.katex %}
+{% if site.theme_settings.katex and page.id %}
 <script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
 {% endif %}
 
