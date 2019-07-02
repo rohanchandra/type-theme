@@ -58,46 +58,46 @@ Meta variables hold basic information about your Jekyll site which will be used 
 
 Change these variables in `_config.yml`:
 
-| Variable | Example | Description | Optional |
-|-------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|
-| title | My Jekyll Blog | Name of website | Yes |
-| avatar | assets/img/avatar.png | Path of avatar image, to be displayed in the theme's header | Yes |
-| gravatar | f9879d71855b5ff21e4963273a886bfc | [MD5 hash of your email address](https://secure.gravatar.com/site/implement/hash/) to load your Gravatar in the theme's header | Yes |
-| description | My blog posts | Short description, primarily used by search engines | Yes |
+| Variable    | Example                          | Description                                                                                                                    | Optional |
+| ----------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| title       | My Jekyll Blog                   | Name of website                                                                                                                | Yes      |
+| avatar      | assets/img/avatar.png            | Path of avatar image, to be displayed in the theme's header                                                                    | Yes      |
+| gravatar    | f9879d71855b5ff21e4963273a886bfc | [MD5 hash of your email address](https://secure.gravatar.com/site/implement/hash/) to load your Gravatar in the theme's header | Yes      |
+| description | My blog posts                    | Short description, primarily used by search engines                                                                            | Yes      |
 
 ### Header and footer text
 
 Change these variables in `_config.yml`:
 
 
-| Variable | Example | Description | Optional |
-|---------------------------|------------------------------|-------------------------------------------------------------------------|----------|
-| header_text | Welcome to my Jekyll blog | HTML (shown below the navigation) with a background colour for emphasis | Yes |
-| header_text_feature_image | assets/img/sample_feature_img_3.png | Background image for the header text | Yes |
-| footer_text | Copyright 2014 | HTML (shown at end of the site) with lighter text | Yes |
+| Variable                  | Example                             | Description                                                             | Optional |
+| ------------------------- | ----------------------------------- | ----------------------------------------------------------------------- | -------- |
+| header_text               | Welcome to my Jekyll blog           | HTML (shown below the navigation) with a background colour for emphasis | Yes      |
+| header_text_feature_image | assets/img/sample_feature_img_3.png | Background image for the header text                                    | Yes      |
+| footer_text               | Copyright 2014                      | HTML (shown at end of the site) with lighter text                       | Yes      |
 
 ### Icons
 
 Add your username on selected websites in the icon section of the `_config.yml` file to display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the header navigation. All icon variables should be your username enclosed in quotes (e.g. "username"), except for the following variables:
 
 
-| Variable | Example | Description | Optional |
-|----------------|-------------------------------------------------|--------------------------------------------------------|----------|
-| rss | true | Takes boolean value (true/false) to show RSS feed icon | Yes |
-| email_address | type@example.com | Email address | Yes |
-| linkedin | https://www.linkedin.com/in/FirstLast | Full URL to profile on LinkedIn | Yes |
-| stack_exchange | https://stackoverflow.com/users/0000/first-last | Full URL to profile on Stack Exchange | Yes |
+| Variable       | Example                                         | Description                                            | Optional |
+| -------------- | ----------------------------------------------- | ------------------------------------------------------ | -------- |
+| rss            | true                                            | Takes boolean value (true/false) to show RSS feed icon | Yes      |
+| email_address  | type@example.com                                | Email address                                          | Yes      |
+| linkedin       | https://www.linkedin.com/in/FirstLast           | Full URL to profile on LinkedIn                        | Yes      |
+| stack_exchange | https://stackoverflow.com/users/0000/first-last | Full URL to profile on Stack Exchange                  | Yes      |
 
 ### Scripts
 
 Change these variables in `_config.yml`:
 
 
-| Variable | Example | Description | Optional |
-|------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
-| google_analytics | UA-123456-01 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/1032385?hl=en) | Yes |
-| disqus_shortname | shortname | Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-) | Yes |
-| katex | true | Takes boolean value (true/false) to conditionally load [KaTeX](https://khan.github.io/KaTeX/) scripts required for math typesetting | Yes |
+| Variable         | Example      | Description                                                                                                                         | Optional |
+| ---------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| google_analytics | UA-123456-01 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/1032385?hl=en)                                           | Yes      |
+| disqus_shortname | shortname    | Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-)                                     | Yes      |
+| katex            | true         | Takes boolean value (true/false) to conditionally load [KaTeX](https://khan.github.io/KaTeX/) scripts required for math typesetting | Yes      |
 
 Scripts listed here are only loaded if you provide a value in the `_config.yml` file.
 
@@ -112,8 +112,8 @@ English text used in the theme (such as the "continue reading" label) has been g
 ![A selection of colours set in Type Theme by modifying the CSS](https://cloud.githubusercontent.com/assets/816965/5142488/130869a6-71d7-11e4-8a38-a69ec1673436.png)
 
 
-| Variable | Example | Description | Optional |
-|--------------|----------------------------|--------------------------------------|--------------------------------------------------------------|
+| Variable     | Example                    | Description                          | Optional                                                     |
+| ------------ | -------------------------- | ------------------------------------ | ------------------------------------------------------------ |
 | google_fonts | "Playfair+Display:400,700\ | PT+Sans:400,700,700italic,400italic" | [Google Fonts](https://www.google.com/fonts) to load for use |
 
 Navigate to the `_sass > base` directory and open `_variables.scss` to change colours, typography and padding used in the theme with CSS.
@@ -254,7 +254,7 @@ order: 4
 
 ### Tags
 
-Post tags should be placed between `[]` in your post metadata. Seperate each tag with a comma.
+Post tags should be placed between `[]` in your post metadata. Separate each tag with a comma.
 
 For example:
 
@@ -266,7 +266,7 @@ tags: [sample, markdown, html]
 ---
 ```
 
-A tags listing will be automatically generated using the `tags.html` file provided in Type theme. If you're not using the tags feature it is safe to delete `tags.html`.
+A tags listing will be automatically generated using the `tags.html` file provided in Type Theme. If you're not using the tags feature it is safe to delete `tags.html`.
 
 ### Search
 
