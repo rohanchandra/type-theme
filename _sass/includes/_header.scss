@@ -37,8 +37,11 @@
     }
     li {
       display: inline;
-      float: left;
-      margin-right: 0.4em;
+      margin-right: 1em;
+      vertical-align: middle;
+      &:last-of-type {
+        margin-right: 0;
+      }
     }
     @media (max-width: 1100px) {
       ul {
