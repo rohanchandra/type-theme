@@ -141,8 +141,8 @@ To do so, simply create a `assets/css/main.scss` file on your website with the f
 @import "type-theme";
 ```
 
-`@import "type-theme";` is including the theme styles, so you can add custom imports before and after it, depending on your needs.
-Best practice is to put your custom files in the `_sass` folder of your progect. Jekyll will automatically look for them there.
+`@import "type-theme";` includes the theme styles, so you can add custom imports before and after it, depending on your needs.
+Best practice is to put your custom files in the `_sass` folder of your project. Jekyll will automatically look for them there.
 For example, say you wanted to override some theme variables and add some custom styles, you can create the following files:
 
 ```scss
