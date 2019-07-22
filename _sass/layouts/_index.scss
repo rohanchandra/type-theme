@@ -45,4 +45,15 @@
   @media (max-width: 600px) {
     padding: $padding-small;
   }
+  .link-page {
+    padding: 3px 10px;
+    color: $text-color;
+  }
+  .link-page:hover {
+    color: $link-color;
+  }
+  .link-page.selected {
+    color : $link-color;
+    font-weight:bold;
+  }
 }
