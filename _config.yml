@@ -6,16 +6,12 @@ url: "https://lroslonek.github.io/"
 theme_settings:
   # Meta
   title: Foreach Blog
-  avatar: assets/img/avatar.png
+  avatar: assets/img/top-logo.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -26,14 +22,13 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "https://www.facebook.com/foreachIT"
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
   gitter:
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: "https://www.linkedin.com/company/12984479"
   pinterest:
   reddit:
   soundcloud:
@@ -42,7 +37,7 @@ theme_settings:
   tumblr:
   twitter:
   wordpress:
-  youtube:
+  youtube: "https://www.youtube.com/channel/UCH4pvmdUx5H42lzmh4K1eyA"
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
