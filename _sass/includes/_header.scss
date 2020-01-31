@@ -19,6 +19,11 @@
     border-radius: 0.2em;
     margin-right: 1em;
     margin-top: -1.8em;
+
+    @media (max-width: 500px) {
+      width: 6em;
+      margin-top: -0.6em;
+    }
   }
 
   .site-title {
@@ -26,6 +31,10 @@
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
+
+    @media (max-width: 500px) {
+      display: none;
+    }
   }
 
   .site-nav {
