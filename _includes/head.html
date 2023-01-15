@@ -52,4 +52,16 @@
 		ga('send', 'pageview');
 	</script>
 	{% endif %}
+
+	<!-- Google Analytics v4 -->
+	{% if site.theme_settings.google_analytics_v4 %}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.theme_settings.google_analytics_v4 }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', '{{ site.theme_settings.google_analytics_v4 }}');
+	 </script>
+	{% endif %}
 </head>

@@ -93,11 +93,12 @@ Add your username on selected websites in the icon section of the `_config.yml` 
 Change these variables in `_config.yml`:
 
 
-| Variable         | Example      | Description                                                                                                                         | Optional |
-| ---------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| google_analytics | UA-123456-01 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/1032385?hl=en)                                           | Yes      |
-| disqus_shortname | shortname    | Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-)                                     | Yes      |
-| katex            | true         | Takes boolean value (true/false) to conditionally load [KaTeX](https://khan.github.io/KaTeX/) scripts required for math typesetting | Yes      |
+| Variable            | Example      | Description                                                                                                                         | Optional |
+| ------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| google_analytics    | UA-123456-01 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/1032385?hl=en)                                           | Yes      |
+| google_analytics_v4 | G-ABCD123456 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/10759417)                                                | Yes      |
+| disqus_shortname    | shortname    | Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-)                                     | Yes      |
+| katex               | true         | Takes boolean value (true/false) to conditionally load [KaTeX](https://khan.github.io/KaTeX/) scripts required for math typesetting | Yes      |
 
 Scripts listed here are only loaded if you provide a value in the `_config.yml` file.
 
